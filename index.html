@@ -1,1 +1,1005 @@
+<!doctype html>
+<html lang="pt-BR"><head><script>window["__codeletBootstrap__"]=JSON.parse('{"A":"A","B":"20260915-03-e4a8234","C":{"Abril Fatface":"YACgEZbkUVE,0","Alfa Slab One":"YACgEYS9sJU,0","Anton":"YACgEcYqQ-A,0","Archivo":"YAHO2-t-jNE,0","Arial":"YAGyDvJ_4Ts,0","Bebas Neue":"YACgESME5ew,0","Bricolage Grotesque":"YAFyMcdwzpc,0","Canva Sans":"YAFLd8sKbwc,2","Caveat":"YALBs2ploWQ,0","Comic Sans MS":"YAHO2VMiyZo,0","Cormorant Garamond":"YAFdJhX-538,0","Courier New":"YAGzXiGs0_8,0","DM Sans":"YAD1aU3sLnI,0","DM Serif Display":"YAD1aYG82rc,0","Forum":"YACgEcnnqB4,0","Fraunces":"YAEul-FRQw4,0","Georgia":"YAGzXkO0pEM,0","Helvetica Neue":"YAFcf6CtJfI,0","Impact":"YAFcfnjI7Vk,0","Inter":"YAFdJvSyp_k,3","Iowan Old Style":"YAGNIFa8j9o,0","Jacques Francois":"YAHO2a5g66Q,0","JetBrains Mono":"YAFdJksXcAk,0","Libre Baskerville":"YACgEUFdPdA,0","Manrope":"YAHO2b2feC4,0","Merriweather":"YACgEXvHxxs,0","Montserrat":"YADLjI9qxTA,0","Nunito":"YACgEX8C5Gg,0","Oleo Script":"YACgEQQ14jI,0","Phantom Sans":"YAHO2E8Pb88,0","Playfair Display":"YACgEYmuCJE,0","Poppins":"YAFdJjbTu24,1","Press Start 2P":"YAFyGr-8pmQ,0","Quicksand":"YADWjpfPmdk,0","Raleway":"YACgEVg3xZg,0","Segoe UI":"YAHNdRD1Klw,0","Source Sans 3":"YAG4lO1Mj10,0","Spectral":"YAHO2rVUHIM,0","Times New Roman":"YAGzXW3gftg,0","Times":"YAGzXW3gftg,0","Ubuntu":"YACgERDU--Q,0","Work Sans":"YAGXhLOKv44,0","Yellowtail":"YACgEYG4kG4,0","ui-monospace":"YADlN8CFZ8Q,0","ui-sans-serif":"YACkoN-xg4g,0"}}');</script><script src="/_sdk/c21197326e9a1154.telemetry_sdk.js" integrity="sha512-Aqwl+NmLtKBcMQM4HY+W9lmBHa+zP5MqSEuYfCjkzt4xeOSv2xNz81cCp7JyXBVrY+zojg5o94FHY/R31v2d3Q=="></script>
+  <script>window["__codeletBootstrap__"]=JSON.parse('{"A":"A","B":"20260914-23-388855d","C":{"Abril Fatface":"YACgEZbkUVE,0","Alfa Slab One":"YACgEYS9sJU,0","Anton":"YACgEcYqQ-A,0","Archivo":"YAHO2-t-jNE,0","Arial":"YAGyDvJ_4Ts,0","Bebas Neue":"YACgESME5ew,0","Bricolage Grotesque":"YAFyMcdwzpc,0","Canva Sans":"YAFLd8sKbwc,2","Caveat":"YALBs2ploWQ,0","Comic Sans MS":"YAHO2VMiyZo,0","Cormorant Garamond":"YAFdJhX-538,0","Courier New":"YAGzXiGs0_8,0","DM Sans":"YAD1aU3sLnI,0","DM Serif Display":"YAD1aYG82rc,0","Forum":"YACgEcnnqB4,0","Fraunces":"YAEul-FRQw4,0","Georgia":"YAGzXkO0pEM,0","Helvetica Neue":"YAFcf6CtJfI,0","Impact":"YAFcfnjI7Vk,0","Inter":"YAFdJvSyp_k,3","Iowan Old Style":"YAGNIFa8j9o,0","Jacques Francois":"YAHO2a5g66Q,0","JetBrains Mono":"YAFdJksXcAk,0","Libre Baskerville":"YACgEUFdPdA,0","Manrope":"YAHO2b2feC4,0","Merriweather":"YACgEXvHxxs,0","Montserrat":"YADLjI9qxTA,0","Nunito":"YACgEX8C5Gg,0","Oleo Script":"YACgEQQ14jI,0","Phantom Sans":"YAHO2E8Pb88,0","Playfair Display":"YACgEYmuCJE,0","Poppins":"YAFdJjbTu24,1","Press Start 2P":"YAFyGr-8pmQ,0","Quicksand":"YADWjpfPmdk,0","Raleway":"YACgEVg3xZg,0","Segoe UI":"YAHNdRD1Klw,0","Source Sans 3":"YAG4lO1Mj10,0","Spectral":"YAHO2rVUHIM,0","Times New Roman":"YAGzXW3gftg,0","Times":"YAGzXW3gftg,0","Ubuntu":"YACgERDU--Q,0","Work Sans":"YAGXhLOKv44,0","Yellowtail":"YACgEYG4kG4,0","ui-monospace":"YADlN8CFZ8Q,0","ui-sans-serif":"YACkoN-xg4g,0"}}');</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sentinela EPI</title>
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.577.0/dist/umd/lucide.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --ink:#071322; --panel:#0c1e34; --panel2:#102945; --line:#28506b;
+      --muted:#9ab0c2; --text:#edf6ff; --green:#45d89a; --blue:#45a4ff;
+      --amber:#f5b544; --orange:#ff944d; --red:#ff6b6b;
+    }
+    *{box-sizing:border-box}
+    html{background:var(--ink);overflow-x:hidden;overflow-y:auto;height:100%;touch-action:pan-y}
+    body{margin:0;min-width:320px;min-height:100%;overflow-x:hidden;overflow-y:auto;background:var(--ink);color:var(--text);font-family:"DM Sans",sans-serif;touch-action:pan-y}
+    body,.app-wrapper,.main-content{overscroll-behavior-y:auto}
+    button,input,select,textarea{font:inherit}
+    button{cursor:pointer}
+    button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid rgba(69,164,255,.8);outline-offset:3px}
+    .app-wrapper{width:100%;min-height:calc(100 * min(var(--vh,1vh),1vh));display:flex;background:radial-gradient(circle at 95% 0%,rgba(37,106,156,.28),transparent 30%),var(--ink)}
+    .sidebar{width:218px;flex:0 0 218px;padding:16px 12px;background:rgba(7,19,34,.94);border-right:1px solid rgba(75,132,166,.32)}
+    .brand{display:flex;align-items:center;gap:10px;padding:5px 8px 18px}
+    .brand-mark{width:35px;height:35px;display:grid;place-items:center;border-radius:10px;background:var(--green);color:#042118}
+    .brand-mark svg{width:20px;height:20px}
+    .brand-copy{display:grid;gap:1px}
+    .brand-copy strong{font-size:14px}
+    .brand-copy span{font-size:10px;color:var(--muted)}
+    .nav-list{display:grid;gap:5px}
+    .nav-item{width:100%;display:flex;align-items:center;gap:9px;border:1px solid transparent;border-radius:9px;padding:9px 10px;background:transparent;color:#aac0d2;text-align:left;font-size:12px;font-weight:700}
+    .nav-item:hover,.nav-item.is-active{background:#123750;color:#fff;border-color:#285873}
+    .nav-item svg{width:16px;height:16px}
+    .side-note{margin-top:18px;padding:11px;border:1px solid #23445e;border-radius:11px;background:#0a2035;color:#a9c0d1;font-size:11px;line-height:1.45}
+    .side-note strong{display:block;margin-bottom:3px;color:#72efb2}
+    .main-content{width:100%;min-width:0;padding:20px;max-width:1440px}
+    .topbar{display:flex;justify-content:space-between;gap:14px;align-items:flex-start;margin-bottom:16px}
+    .eyebrow{margin:0 0 4px;color:#87a9c4;font-size:10px;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
+    h1,h2,h3,p{margin-top:0}
+    h1{margin-bottom:0;font-size:clamp(22px,3vw,29px)}
+    h2{margin-bottom:0;font-size:18px}
+    h3{margin-bottom:0;font-size:14px}
+    .top-actions{display:flex;align-items:center;gap:8px;flex-wrap:wrap;justify-content:flex-end}
+    .tag,.status-chip{display:inline-flex;align-items:center;gap:6px;padding:6px 9px;border:1px solid transparent;border-radius:999px;font-size:10px;font-weight:800;white-space:nowrap}
+    .tag-simulated{background:#15334d;border-color:#2c5d7a;color:#9dd2ff}
+    .tag-live{background:#123c33;border-color:#24634f;color:#78edb7}
+    .live-dot{width:6px;height:6px;border-radius:50%;background:var(--green)}
+    .icon-button,.restore,.secondary-button,.primary-button,.action-button,.choice{
+      border-radius:9px;border:1px solid #365d79;background:#14314a;color:#dcecf7;font-weight:800;font-size:12px
+    }
+    .icon-button{display:grid;place-items:center;width:34px;height:34px;padding:0;position:relative}
+    .icon-button svg{width:16px;height:16px}
+    .notification-count{position:absolute;right:-4px;top:-4px;width:15px;height:15px;border-radius:50%;display:grid;place-items:center;background:var(--red);color:#fff;font-size:9px}
+    .restore,.secondary-button,.primary-button,.action-button{padding:9px 11px}
+    .primary-button{background:#176aa8;border-color:#2d82bd;color:#fff}
+    .action-button.confirm{background:#a83846;border-color:#d6606c}
+    .action-button.escalate{background:#176aa8;border-color:#2d82bd}
+    .secondary-button:hover,.restore:hover,.icon-button:hover{background:#1b4562}
+    .primary-button:hover,.action-button:hover{filter:brightness(1.12)}
+    .view{display:none}
+    .view.is-active{display:block}
+    .card{border:1px solid rgba(105,151,185,.25);border-radius:14px;padding:15px;background:linear-gradient(145deg,rgba(19,49,76,.94),rgba(9,28,48,.94));box-shadow:0 10px 25px rgba(0,0,0,.12)}
+    .hero-card{display:flex;justify-content:space-between;gap:18px;align-items:center;padding:18px}
+    .hero-card p:last-child,.card-subtitle,.page-title p{margin:7px 0 0;color:#a7bdcd;font-size:12px;line-height:1.5}
+    .score-block{flex:0 0 auto;text-align:right}
+    .score-block strong{display:block;color:var(--green);font-size:31px;letter-spacing:-.05em}
+    .score-block span{font-size:10px;color:#9ab0c2}
+    .kpi-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-top:10px}
+    .monitor-summary{display:grid;grid-template-columns:.8fr 1.2fr;gap:12px;margin-top:12px}
+    .monitor-summary-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:12px}
+    .monitor-stat{padding:10px;border:1px solid #294b65;border-radius:10px;background:#091d31}
+    .monitor-stat strong{display:block;font-size:18px}
+    .monitor-stat span{display:block;margin-top:3px;color:#9db4c5;font-size:10px}
+    .sector-list{display:grid;gap:7px;margin-top:12px}
+    .sector-row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px;align-items:center;padding:8px 10px;border:1px solid #294b65;border-radius:9px;background:#091d31}
+    .sector-row strong{display:block;font-size:11px}
+    .sector-row span{display:block;margin-top:2px;color:#9db4c5;font-size:10px}
+    .sector-status{font-size:11px;font-weight:800;text-align:right}
+    .kpi-card{padding:12px}
+    .kpi-card p{margin-bottom:7px;color:#a8bdcc;font-size:11px}
+    .kpi-card strong{font-size:22px}
+    .kpi-card small{display:block;margin-top:4px;color:#91a9ba;font-size:10px;line-height:1.3}
+    .green{color:var(--green)}.amber{color:var(--amber)}.orange{color:var(--orange)}.blue{color:var(--blue)}
+    .dashboard-grid,.alert-layout,.inspection-layout,.settings-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:12px;margin-top:12px}
+    .card-head{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
+    .area-list{display:grid;gap:10px;margin-top:13px}
+    .area-row{display:grid;gap:5px}
+    .area-label{display:flex;justify-content:space-between;gap:10px;font-size:12px;color:#d7e4ee}
+    .progress-track{height:7px;border-radius:999px;overflow:hidden;background:#193852}
+    .progress-value{height:100%;border-radius:inherit;background:linear-gradient(90deg,#35bd7e,#69efb0)}
+    .mini-chart{display:flex;align-items:flex-end;gap:8px;height:105px;margin-top:15px;padding:0 3px;border-bottom:1px solid #31526b}
+    .chart-bar{flex:1;min-width:13px;border-radius:5px 5px 0 0;background:linear-gradient(#55dca1,#167e5b)}
+    .chart-bar:nth-child(3),.chart-bar:nth-child(5){background:linear-gradient(#f7ca64,#bd7e20)}
+    .chart-caption{display:flex;justify-content:space-between;margin-top:7px;color:#9db4c5;font-size:10px}
+    .summary-list{display:grid;gap:8px;margin-top:12px}
+    .mini-alert{padding:9px 10px;border-left:3px solid var(--amber);border-radius:0 8px 8px 0;background:#0a2035;font-size:11px}
+    .mini-alert.critical{border-color:var(--red)}
+    .mini-alert strong{display:block}
+    .mini-alert span{display:block;margin-top:3px;color:#9cb4c5}
+    .page-title{margin-bottom:12px}
+    .filter-card{margin-bottom:12px;padding:12px}
+    .filter-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
+    label{display:block;color:#cfe0ec;font-size:11px;font-weight:800}
+    select,textarea,input[type="text"],input[type="password"]{width:100%;margin-top:5px;padding:8px;color:#e8f4fc;border:1px solid #31536f;border-radius:8px;background:#091b2e;font-size:12px}
+    textarea{min-height:48px;resize:vertical}
+    .alert-list{display:grid;gap:7px;margin-top:12px}
+    .alert-card{width:100%;border:1px solid #24445e;border-radius:10px;padding:10px;background:#0a2035;color:var(--text);text-align:left}
+    .alert-card:hover,.alert-card.is-selected{background:#102c47;border-color:#397596}
+    .alert-line{display:flex;justify-content:space-between;gap:8px;align-items:center}
+    .alert-card h3{margin:7px 0 3px;font-size:13px}
+    .alert-card p{margin:0;color:#9db4c4;font-size:11px;line-height:1.35}
+    .alert-time{color:#91aabc;font-size:10px}
+    .severity-critical{color:#ffabb2;background:#4a2731;border-color:#713743}
+    .severity-high{color:#ffd08a;background:#4a351f;border-color:#6b4b25}
+    .severity-medium{color:#ffe094;background:#4d421f;border-color:#6e5b2c}
+    .severity-low{color:#8bf1bc;background:#123e34;border-color:#21624f}
+    .status-pendente{color:#ffe094}.status-confirmado{color:#ffabb2}.status-falso{color:#8bf1bc}.status-escalado{color:#9dd2ff}
+    .evidence-box{margin:12px 0;padding:10px;border-radius:10px;background:#092039;border:1px dashed #315c78;color:#9bc9e8;font-size:10px}
+    .detail-data{display:grid;gap:7px;margin:12px 0;padding:10px;border-radius:10px;background:#091c30}
+    .detail-data div{display:flex;justify-content:space-between;gap:8px;font-size:11px}
+    .detail-data span{color:#94adbd}
+    .action-stack{display:grid;gap:7px}
+    .empty-state{padding:20px;text-align:center;color:#a7bfce;font-size:12px}
+    .inspection-layout{grid-template-columns:260px minmax(0,1fr)}
+    .checklist{display:grid;gap:8px;margin-top:12px}
+    .check-row{padding:10px;border:1px solid #294b65;border-radius:10px;background:#091d31}
+    .check-row strong{font-size:12px}
+    .check-actions{display:flex;gap:7px;margin-top:8px;flex-wrap:wrap}
+    .choice{padding:6px 9px;color:#c1d5e4}
+    .choice.is-ok{background:#167555;border-color:#2aaa7e;color:#fff}
+    .choice.is-bad{background:#a83846;border-color:#d6606c;color:#fff}
+    .epi-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+    .epi-card{padding:12px}
+    .epi-card p{margin:6px 0 0;color:#bdd0dd;font-size:11px;line-height:1.45}
+    .area-manager{display:grid;gap:8px;margin-top:12px}
+    .managed-area{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px;border:1px solid #294b65;border-radius:10px;background:#091d31}
+    .managed-area strong{display:block;font-size:12px}
+    .managed-area span{display:block;margin-top:3px;color:#9db4c5;font-size:10px}
+    .area-actions{display:flex;gap:6px}
+    .small-button{padding:6px 8px;border:1px solid #365d79;border-radius:7px;background:#14314a;color:#dcecf7;font-size:10px;font-weight:800}
+    .small-button.delete-ready{background:#8e3542;border-color:#d6606c}
+    .inline-form{display:grid;grid-template-columns:1fr 120px auto auto;gap:8px;align-items:end;margin-top:12px}
+    .settings-card{max-width:760px}
+    .settings-grid{margin-top:0}
+    .toggle-row{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:13px 0;padding:10px;border:1px solid #294b65;border-radius:10px;background:#091d31;font-size:11px}
+    .toggle-row span{color:#9db4c5}
+    .toggle-row input{width:18px;height:18px;accent-color:var(--green)}
+    .range-line{display:flex;align-items:center;gap:10px;margin-top:6px}
+    .range-line input{width:100%;accent-color:var(--green)}
+    output{min-width:35px;color:#85c7ff;font-size:12px;font-weight:800}
+    .admin-state{margin-top:12px;padding:10px;border-radius:9px;background:#0a2035;color:#aac3d5;font-size:11px}
+    .admin-state.is-admin{border-left:3px solid var(--green)}
+    .toast{position:fixed;right:16px;bottom:16px;z-index:20;max-width:min(380px,calc(100% - 32px));padding:11px 13px;border:1px solid #2b6670;border-radius:10px;background:#0c3040;color:#efffff;box-shadow:0 16px 38px rgba(0,0,0,.35);font-size:12px;font-weight:700;opacity:0;transform:translateY(20px);pointer-events:none;transition:.2s}
+    .toast.is-visible{opacity:1;transform:translateY(0)}
+    .toast.error{background:#40232d;border-color:#a94a58}
+    footer{margin-top:17px;padding-top:12px;border-top:1px solid #254761}
+    footer p{margin:0;color:#b8cfdf;font-size:11px;line-height:1.5}
+    @media(max-width:980px){
+      .kpi-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+      .dashboard-grid,.alert-layout,.inspection-layout,.settings-grid,.monitor-summary{grid-template-columns:1fr}
+    }
+    @media(max-width:720px){
+      .app-wrapper{display:block}
+      .sidebar{width:100%;padding:12px;border-right:0;border-bottom:1px solid #24445e}
+      .brand{padding-bottom:11px}
+      .nav-list{grid-template-columns:repeat(3,minmax(0,1fr))}
+      .nav-item{justify-content:center;padding:8px 4px;font-size:10px;gap:5px}
+      .nav-item svg{width:14px;height:14px}
+      .side-note{display:none}
+      .main-content{padding:15px}
+      .topbar{display:block}
+      .top-actions{margin-top:11px;justify-content:flex-start}
+      .filter-grid,.epi-grid{grid-template-columns:1fr 1fr}
+      .inline-form{grid-template-columns:1fr}
+    }
+    @media(max-width:460px){
+      .kpi-grid,.filter-grid,.epi-grid{grid-template-columns:1fr}
+      .nav-list{grid-template-columns:repeat(2,minmax(0,1fr))}
+      .hero-card{align-items:flex-start}
+    }
+  </style>
+  <style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}</style>
+  <script src="/_sdk/fab616ff82261ec3.resizing_sdk.js" integrity="sha512-6HMQCcUK6kDKuW59G/ZuFQDLjI3pOzz+2hgX6MaEV1izmYwYrrxv76nfirS4geYvvwnfUYWKbXBg/ycD2lR6jw=="></script>
+  <script src="/_sdk/efe904fe8a212716.data_sdk.js" type="text/javascript" integrity="sha512-oiO0pmn5llS1uDeB2l690YywxqOe/a0U1kzY6RGaLZXtyh9YjTk1CUoK/bJUugc1QbUaJMJ3IE1MtpNY5NBZCw=="></script>
+ </head>
+ <body data-template-id="__page-root" style="background: rgb(7, 19, 34);" data-html-import-id="html-import-0">
+  <div class="app-wrapper canva-container" data-html-import-id="html-import-1" data-template-id="div-0" style="background: rgb(7, 19, 34);">
+   <aside class="sidebar canva-sidebar" aria-label="Navegação principal" data-html-import-id="html-import-2" data-template-id="aside-1" style="background: rgba(7, 19, 34, 0.94);">
+    <div class="brand" data-html-import-id="html-import-3">
+     <div class="brand-mark canva-container" aria-hidden="true" data-html-import-id="html-import-4" data-template-id="div-2" style="background: rgb(69, 216, 154); color: rgb(4, 33, 24);">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="shield-check" aria-hidden="true" class="lucide lucide-shield-check" data-html-import-id="html-import-5"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" data-html-import-id="html-import-6"></path><path d="m9 12 2 2 4-4" data-html-import-id="html-import-7"></path>
+      </svg>
+     </div>
+     <div class="brand-copy" data-html-import-id="html-import-8">
+      <strong data-template-id="strong-3" class="canva-text canva-text" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 15px;" data-html-import-id="html-import-9">Sentinela EPI</strong> <span data-template-id="span-4" class="canva-text canva-text" style="color: rgb(154, 176, 194); font-weight: 400; font-style: normal; font-size: 11px;" data-html-import-id="html-import-10">Segurança preventiva</span>
+     </div>
+    </div>
+    <nav class="nav-list" data-html-import-id="html-import-11">
+     <button class="nav-item is-active canva-button" type="button" data-view="panel" aria-current="page" data-html-import-id="html-import-12" data-template-id="button-5" style="background: rgb(18, 55, 80); color: rgb(255, 255, 255); font-weight: 700; font-size: 12px;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="layout-dashboard" aria-hidden="true" class="lucide lucide-layout-dashboard" data-html-import-id="html-import-13"><rect width="7" height="9" x="3" y="3" rx="1" data-html-import-id="html-import-14"></rect><rect width="7" height="5" x="14" y="3" rx="1" data-html-import-id="html-import-15"></rect><rect width="7" height="9" x="14" y="12" rx="1" data-html-import-id="html-import-16"></rect><rect width="7" height="5" x="3" y="16" rx="1" data-html-import-id="html-import-17"></rect>
+      </svg>
+      <canva-inline-text data-template-id="canva-inline-text-6" class="canva-text" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 12px;">Painel</canva-inline-text></button> <button class="nav-item canva-button" type="button" data-view="alertas" data-html-import-id="html-import-18" data-template-id="button-7" style="color: rgb(170, 192, 210); font-weight: 700; font-size: 12px;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="bell-ring" aria-hidden="true" class="lucide lucide-bell-ring" data-html-import-id="html-import-19"><path d="M10.268 21a2 2 0 0 0 3.464 0" data-html-import-id="html-import-20"></path><path d="M22 8c0-2.3-.8-4.3-2-6" data-html-import-id="html-import-21"></path><path d="M3.262 15.326A1 1 0 0 0 4 17h16a1 1 0 0 0 .74-1.673C19.41 13.956 18 12.499 18 8A6 6 0 0 0 6 8c0 4.499-1.411 5.956-2.738 7.326" data-html-import-id="html-import-22"></path><path d="M4 2C2.8 3.7 2 5.7 2 8" data-html-import-id="html-import-23"></path>
+      </svg>
+      <canva-inline-text data-template-id="canva-inline-text-8" class="canva-text" style="color: rgb(170, 192, 210); font-weight: 700; font-style: normal; font-size: 12px;">Alertas</canva-inline-text></button> <button class="nav-item canva-button" type="button" data-view="inspecao" data-html-import-id="html-import-24" data-template-id="button-9" style="color: rgb(170, 192, 210); font-weight: 700; font-size: 12px;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="clipboard-check" aria-hidden="true" class="lucide lucide-clipboard-check" data-html-import-id="html-import-25"><rect width="8" height="4" x="8" y="2" rx="1" ry="1" data-html-import-id="html-import-26"></rect><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2" data-html-import-id="html-import-27"></path><path d="m9 14 2 2 4-4" data-html-import-id="html-import-28"></path>
+      </svg>
+      <canva-inline-text data-template-id="canva-inline-text-10" class="canva-text" style="color: rgb(170, 192, 210); font-weight: 700; font-style: normal; font-size: 12px;">Inspeção</canva-inline-text></button> <button class="nav-item canva-button" type="button" data-view="epis" data-html-import-id="html-import-29" data-template-id="button-11" style="color: rgb(170, 192, 210); font-weight: 700; font-size: 12px;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="hard-hat" aria-hidden="true" class="lucide lucide-hard-hat" data-html-import-id="html-import-30"><path d="M10 10V5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v5" data-html-import-id="html-import-31"></path><path d="M14 6a6 6 0 0 1 6 6v3" data-html-import-id="html-import-32"></path><path d="M4 15v-3a6 6 0 0 1 6-6" data-html-import-id="html-import-33"></path><rect x="2" y="15" width="20" height="4" rx="1" data-html-import-id="html-import-34"></rect>
+      </svg>
+      <canva-inline-text data-template-id="canva-inline-text-12" class="canva-text" style="color: rgb(170, 192, 210); font-weight: 700; font-style: normal; font-size: 12px;">EPIs</canva-inline-text></button> <button class="nav-item canva-button" type="button" data-view="areas" data-html-import-id="html-import-35" data-template-id="button-13" style="color: rgb(170, 192, 210); font-weight: 700; font-size: 12px;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="map-pin" aria-hidden="true" class="lucide lucide-map-pin" data-html-import-id="html-import-36"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" data-html-import-id="html-import-37"></path><circle cx="12" cy="10" r="3" data-html-import-id="html-import-38"></circle>
+      </svg>
+      <canva-inline-text data-template-id="canva-inline-text-14" class="canva-text" style="color: rgb(170, 192, 210); font-weight: 700; font-style: normal; font-size: 12px;">Áreas</canva-inline-text></button> <button class="nav-item canva-button" type="button" data-view="configuracoes" data-html-import-id="html-import-39" data-template-id="button-15" style="color: rgb(170, 192, 210); font-weight: 700; font-size: 12px;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="settings-2" aria-hidden="true" class="lucide lucide-settings-2" data-html-import-id="html-import-40"><path d="M14 17H5" data-html-import-id="html-import-41"></path><path d="M19 7h-9" data-html-import-id="html-import-42"></path><circle cx="17" cy="17" r="3" data-html-import-id="html-import-43"></circle><circle cx="7" cy="7" r="3" data-html-import-id="html-import-44"></circle>
+      </svg>
+      <canva-inline-text data-template-id="canva-inline-text-16" class="canva-text" style="color: rgb(170, 192, 210); font-weight: 700; font-style: normal; font-size: 12px;">Ajustes</canva-inline-text></button> <button class="nav-item canva-button" type="button" data-view="cameras" aria-label="Abrir câmeras" data-template-id="camera-nav-button" style="color: rgb(170, 192, 210); font-weight: 700; font-size: 12px;"> <i data-lucide="camera" aria-hidden="true"></i><span data-template-id="camera-nav-label" class="canva-text" style="color: rgb(170, 192, 210); font-weight: 700; font-style: normal; font-size: 12px;">Câmeras</span></button>
+    </nav>
+    <div class="side-note canva-container" data-html-import-id="html-import-45" data-template-id="div-17" style="background: rgb(10, 32, 53); color: rgb(169, 192, 209); font-size: 11px;">
+     <strong data-html-import-id="html-import-46" data-template-id="strong-18" class="canva-text" style="color: rgb(114, 239, 178); font-weight: 700; font-style: normal; font-size: 16px;">● Revisão humana ativa</strong><canva-inline-text data-template-id="canva-inline-text-19" class="canva-text" style="color: rgb(169, 192, 209); font-weight: 400; font-style: normal; font-size: 11px;">Alertas são sinais simulados para análise contextual.</canva-inline-text>
+    </div>
+   </aside>
+   <main class="main-content" data-html-import-id="html-import-47">
+    <header class="topbar" data-html-import-id="html-import-48">
+     <div data-html-import-id="html-import-49">
+      <p data-template-id="p-20" class="eyebrow canva-text canva-text" style="color: rgb(135, 169, 196); font-weight: 700; font-style: normal; font-size: 11px;" data-html-import-id="html-import-50">MONITORAMENTO INTELIGENTE DE EPI</p>
+      <h1 data-template-id="h1-21" class="canva-text canva-text" style="color: rgb(237, 246, 255); font-weight: 700; font-style: normal; font-size: 28px;" data-html-import-id="html-import-51">Painel de segurança operacional</h1>
+     </div>
+     <div class="top-actions" data-html-import-id="html-import-52">
+      <span data-template-id="span-22" class="tag tag-simulated canva-tag canva-text" style="background: rgb(21, 51, 77); color: rgb(157, 210, 255); font-weight: 700; font-style: normal; font-size: 11px;" data-html-import-id="html-import-53">Modo demonstração</span> <span class="tag tag-live canva-text" data-html-import-id="html-import-54" data-template-id="span-23" style="background: rgb(18, 60, 51); color: rgb(120, 237, 183); font-weight: 800; font-size: 10px;"><span class="live-dot canva-text" data-html-import-id="html-import-55" data-template-id="span-24" style="background: rgb(69, 216, 154);"></span>
+       <canva-inline-text data-template-id="canva-inline-text-25" class="canva-text" style="color: rgb(120, 237, 183); font-weight: 800; font-style: normal; font-size: 10px;">Operação ativa</canva-inline-text></span> <button id="notifications-button" class="icon-button canva-button" type="button" aria-label="Ver notificações" data-html-import-id="html-import-56" data-template-id="button-26" style="background: rgb(20, 49, 74); color: rgb(220, 236, 247); font-weight: 800; font-size: 12px;">
+       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="bell" aria-hidden="true" class="lucide lucide-bell" data-html-import-id="html-import-57"><path d="M10.268 21a2 2 0 0 0 3.464 0" data-html-import-id="html-import-58"></path><path d="M3.262 15.326A1 1 0 0 0 4 17h16a1 1 0 0 0 .74-1.673C19.41 13.956 18 12.499 18 8A6 6 0 0 0 6 8c0 4.499-1.411 5.956-2.738 7.326" data-html-import-id="html-import-59"></path>
+       </svg><span id="notification-count" class="notification-count canva-text" data-html-import-id="html-import-60" data-template-id="span-27" style="background: rgb(255, 107, 107); color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-size: 9px;">2</span> </button> <button id="restore-data" class="restore canva-button" type="button" data-html-import-id="html-import-61" data-template-id="button-28" style="background: rgb(20, 49, 74); color: rgb(220, 236, 247); font-weight: 800; font-style: normal; font-size: 12px;">Restaurar dados</button>
+     </div>
+    </header>
+    <section id="panel" class="view is-active" aria-labelledby="app-title" data-html-import-id="html-import-62">
+     <section data-template-id="hero-section" class="card hero-card canva-banner" style="background: linear-gradient(145deg, rgb(19, 49, 76), rgb(9, 28, 48));" data-html-import-id="html-import-63">
+      <div data-html-import-id="html-import-64">
+       <p data-template-id="p-29" class="eyebrow canva-text canva-text" style="color: rgb(135, 169, 196); font-weight: 700; font-style: normal; font-size: 11px;" data-html-import-id="html-import-65">VISÃO EXECUTIVA</p>
+       <h2 data-template-id="h2-30" class="canva-text canva-text" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 21px;" data-html-import-id="html-import-66">Prevenção operacional com revisão humana.</h2>
+       <p data-template-id="p-31" class="canva-text canva-text" style="color: rgb(177, 198, 214); font-weight: 400; font-style: normal; font-size: 14px; line-height: 1.5;" data-html-import-id="html-import-67">Acompanhe sinais simulados de conformidade e priorize ações educativas com uma visão leve e objetiva.</p>
+      </div>
+      <div class="score-block" aria-label="Conformidade geral" data-html-import-id="html-import-68">
+       <strong id="gauge-value" data-html-import-id="html-import-69" data-template-id="strong-32" class="canva-text" style="color: rgb(69, 216, 154); font-weight: 700; font-style: normal; font-size: 31px;">84%</strong><span data-html-import-id="html-import-70" data-template-id="span-33" class="canva-text" style="color: rgb(154, 176, 194); font-weight: 400; font-style: normal; font-size: 10px;">conformidade</span>
+      </div>
+     </section>
+     <section class="kpi-grid" aria-label="Indicadores principais" data-html-import-id="html-import-71">
+      <article class="card kpi-card" data-html-import-id="html-import-72">
+       <p data-html-import-id="html-import-73" data-template-id="p-34" class="canva-text" style="color: rgb(168, 189, 204); font-weight: 400; font-style: normal; font-size: 11px;">Conformidade geral</p><strong id="kpi-compliance" class="green canva-text" data-html-import-id="html-import-74" data-template-id="strong-35" style="color: rgb(69, 216, 154); font-weight: 700; font-style: normal; font-size: 22px;">84%</strong><small data-html-import-id="html-import-75" data-template-id="small-36" class="canva-text" style="color: rgb(145, 169, 186); font-weight: 400; font-style: normal; font-size: 10px;">Resumo demonstrativo</small>
+      </article>
+      <article class="card kpi-card" data-html-import-id="html-import-76">
+       <p data-html-import-id="html-import-77" data-template-id="p-37" class="canva-text" style="color: rgb(168, 189, 204); font-weight: 400; font-style: normal; font-size: 11px;">Alertas pendentes</p><strong id="kpi-pending" class="orange canva-text" data-html-import-id="html-import-78" data-template-id="strong-38" style="color: rgb(255, 148, 77); font-weight: 700; font-style: normal; font-size: 22px;">4</strong><small id="kpi-pending-caption" data-html-import-id="html-import-79" data-template-id="small-39" class="canva-text" style="color: rgb(145, 169, 186); font-weight: 400; font-style: normal; font-size: 10px;">Revisão humana necessária</small>
+      </article>
+      <article class="card kpi-card" data-html-import-id="html-import-80">
+       <p data-html-import-id="html-import-81" data-template-id="p-40" class="canva-text" style="color: rgb(168, 189, 204); font-weight: 400; font-style: normal; font-size: 11px;">Câmeras online</p><strong class="blue canva-text" data-html-import-id="html-import-82" data-template-id="strong-41" style="color: rgb(69, 164, 255); font-weight: 700; font-style: normal; font-size: 22px;">17/18</strong><small data-html-import-id="html-import-83" data-template-id="small-42" class="canva-text" style="color: rgb(145, 169, 186); font-weight: 400; font-style: normal; font-size: 10px;">Uma em manutenção</small>
+      </article>
+      <article class="card kpi-card" data-html-import-id="html-import-84">
+       <p data-html-import-id="html-import-85" data-template-id="p-43" class="canva-text" style="color: rgb(168, 189, 204); font-weight: 400; font-style: normal; font-size: 11px;">Áreas simuladas</p><strong id="kpi-areas" class="amber canva-text" data-html-import-id="html-import-86" data-template-id="strong-44" style="color: rgb(245, 181, 68); font-weight: 700; font-style: normal; font-size: 22px;">5</strong><small data-html-import-id="html-import-87" data-template-id="small-45" class="canva-text" style="color: rgb(145, 169, 186); font-weight: 400; font-style: normal; font-size: 10px;">Monitoramento local</small>
+      </article>
+     </section>
+     <section class="monitor-summary" aria-label="Resumo de câmeras e setores">
+      <article class="card">
+       <div class="card-head">
+        <div>
+         <h2 data-template-id="monitor-cameras-title" class="canva-text" style="color: rgb(237, 246, 255); font-weight: 700; font-style: normal; font-size: 18px;">Câmeras por setor</h2>
+         <p data-template-id="monitor-cameras-subtitle" class="card-subtitle canva-text" style="color: rgb(151, 175, 192); font-weight: 400; font-style: normal; font-size: 12px;">Disponibilidade do monitoramento simulado.</p>
+        </div>
+       </div>
+       <div class="monitor-summary-grid">
+        <div class="monitor-stat"><strong class="green">17</strong><span data-template-id="monitor-online-label" class="canva-text" style="color: rgb(157, 180, 197); font-weight: 400; font-style: normal; font-size: 10px;">Online</span>
+        </div>
+        <div class="monitor-stat"><strong class="orange">1</strong><span data-template-id="monitor-maintenance-label" class="canva-text" style="color: rgb(157, 180, 197); font-weight: 400; font-style: normal; font-size: 10px;">Em manutenção</span>
+        </div>
+       </div>
+       <div class="sector-list">
+        <div class="sector-row">
+         <div><strong data-template-id="camera-sector-maintenance" class="canva-text" style="color: rgb(237, 246, 255); font-weight: 700; font-style: normal; font-size: 11px;">Manutenção · CAM-10</strong><span data-template-id="camera-sector-maintenance-status" class="canva-text" style="color: rgb(157, 180, 197); font-weight: 400; font-style: normal; font-size: 10px;">Câmera ativa</span>
+         </div><span class="sector-status green">Online</span>
+        </div>
+        <div class="sector-row">
+         <div><strong data-template-id="camera-sector-yard" class="canva-text" style="color: rgb(237, 246, 255); font-weight: 700; font-style: normal; font-size: 11px;">Pátio de Cargas · CAM-07</strong><span data-template-id="camera-sector-yard-status" class="canva-text" style="color: rgb(157, 180, 197); font-weight: 400; font-style: normal; font-size: 10px;">Câmera ativa</span>
+         </div><span class="sector-status green">Online</span>
+        </div>
+        <div class="sector-row">
+         <div><strong data-template-id="camera-sector-laser" class="canva-text" style="color: rgb(237, 246, 255); font-weight: 700; font-style: normal; font-size: 11px;">Corte a Laser · CAM-02</strong><span data-template-id="camera-sector-laser-status" class="canva-text" style="color: rgb(157, 180, 197); font-weight: 400; font-style: normal; font-size: 10px;">Câmera ativa</span>
+         </div><span class="sector-status green">Online</span>
+        </div>
+        <div class="sector-row">
+         <div><strong data-template-id="camera-sector-press" class="canva-text" style="color: rgb(237, 246, 255); font-weight: 700; font-style: normal; font-size: 11px;">Prensa Hidráulica · CAM-08</strong><span data-template-id="camera-sector-press-status" class="canva-text" style="color: rgb(157, 180, 197); font-weight: 400; font-style: normal; font-size: 10px;">Câmera ativa</span>
+         </div><span class="sector-status green">Online</span>
+        </div>
+       </div>
+      </article>
+      <article class="card">
+       <div class="card-head">
+        <div>
+         <h2 data-template-id="monitor-sectors-title" class="canva-text" style="color: rgb(237, 246, 255); font-weight: 700; font-style: normal; font-size: 18px;">Setores monitorados</h2>
+         <p data-template-id="monitor-sectors-subtitle" class="card-subtitle canva-text" style="color: rgb(151, 175, 192); font-weight: 400; font-style: normal; font-size: 12px;">Status e conformidade atual.</p>
+        </div>
+       </div>
+       <div class="sector-list">
+        <div class="sector-row">
+         <div><strong data-template-id="sector-welding" class="canva-text" style="color: rgb(237, 246, 255); font-weight: 700; font-style: normal; font-size: 11px;">Linha de Solda</strong><span data-template-id="sector-welding-camera" class="canva-text" style="color: rgb(157, 180, 197); font-weight: 400; font-style: normal; font-size: 10px;">Monitorada · câmera online</span>
+         </div><span class="sector-status green">94% · OK</span>
+        </div>
+        <div class="sector-row">
+         <div><strong data-template-id="sector-yard" class="canva-text" style="color: rgb(237, 246, 255); font-weight: 700; font-style: normal; font-size: 11px;">Pátio de Cargas</strong><span data-template-id="sector-yard-camera" class="canva-text" style="color: rgb(157, 180, 197); font-weight: 400; font-style: normal; font-size: 10px;">Monitorado · câmera online</span>
+         </div><span class="sector-status amber">78% · Atenção</span>
+        </div>
+        <div class="sector-row">
+         <div><strong data-template-id="sector-laser" class="canva-text" style="color: rgb(237, 246, 255); font-weight: 700; font-style: normal; font-size: 11px;">Corte a Laser</strong><span data-template-id="sector-laser-camera" class="canva-text" style="color: rgb(157, 180, 197); font-weight: 400; font-style: normal; font-size: 10px;">Monitorado · câmera online</span>
+         </div><span class="sector-status green">88% · OK</span>
+        </div>
+        <div class="sector-row">
+         <div><strong data-template-id="sector-warehouse" class="canva-text" style="color: rgb(237, 246, 255); font-weight: 700; font-style: normal; font-size: 11px;">Almoxarifado</strong><span data-template-id="sector-warehouse-camera" class="canva-text" style="color: rgb(157, 180, 197); font-weight: 400; font-style: normal; font-size: 10px;">Monitorado · câmera em manutenção</span>
+         </div><span class="sector-status green">97% · OK</span>
+        </div>
+        <div class="sector-row">
+         <div><strong data-template-id="sector-press" class="canva-text" style="color: rgb(237, 246, 255); font-weight: 700; font-style: normal; font-size: 11px;">Prensa Hidráulica</strong><span data-template-id="sector-press-camera" class="canva-text" style="color: rgb(157, 180, 197); font-weight: 400; font-style: normal; font-size: 10px;">Monitorada · câmera online</span>
+         </div><span class="sector-status amber">82% · Atenção</span>
+        </div>
+       </div>
+      </article>
+     </section>
+     <section class="dashboard-grid" data-html-import-id="html-import-88">
+      <article class="card" data-html-import-id="html-import-89">
+       <div class="card-head" data-html-import-id="html-import-90">
+        <div data-html-import-id="html-import-91">
+         <h2 data-template-id="h2-46" class="canva-text canva-text" style="color: rgb(237, 246, 255); font-weight: 700; font-style: normal; font-size: 21px;" data-html-import-id="html-import-92">Áreas monitoradas</h2>
+         <p data-template-id="p-47" class="card-subtitle canva-text canva-text" style="color: rgb(151, 175, 192); font-weight: 400; font-style: normal; font-size: 13px;" data-html-import-id="html-import-93">Resumo de conformidade no turno atual.</p>
+        </div><button class="small-button canva-button" type="button" data-jump="areas" data-html-import-id="html-import-94" data-template-id="button-48" style="background: rgb(20, 49, 74); color: rgb(220, 236, 247); font-weight: 800; font-style: normal; font-size: 10px;">Gerenciar</button>
+       </div>
+       <div id="dashboard-areas" class="area-list" data-html-import-id="html-import-95">
+        <div class="area-row" data-html-import-id="html-import-96">
+         <div class="area-label canva-container" data-html-import-id="html-import-97" data-template-id="div-49" style="color: rgb(215, 228, 238); font-size: 12px;"><span data-html-import-id="html-import-98" data-template-id="span-50" class="canva-text" style="color: rgb(215, 228, 238); font-weight: 400; font-style: normal; font-size: 16px;">Linha de Solda</span><strong data-html-import-id="html-import-99" data-template-id="strong-51" class="canva-text" style="color: rgb(215, 228, 238); font-weight: 700; font-style: normal; font-size: 16px;">94%</strong>
+         </div>
+         <div class="progress-track canva-container" data-html-import-id="html-import-100" data-template-id="div-52" style="background: rgb(25, 56, 82);">
+          <div class="progress-value" style="width:94%;" data-html-import-id="html-import-101"></div>
+         </div>
+        </div>
+        <div class="area-row" data-html-import-id="html-import-102">
+         <div class="area-label canva-container" data-html-import-id="html-import-103" data-template-id="div-53" style="color: rgb(215, 228, 238); font-size: 12px;"><span data-html-import-id="html-import-104" data-template-id="span-54" class="canva-text" style="color: rgb(215, 228, 238); font-weight: 400; font-style: normal; font-size: 16px;">Pátio de Cargas</span><strong data-html-import-id="html-import-105" data-template-id="strong-55" class="canva-text" style="color: rgb(215, 228, 238); font-weight: 700; font-style: normal; font-size: 16px;">78%</strong>
+         </div>
+         <div class="progress-track canva-container" data-html-import-id="html-import-106" data-template-id="div-56" style="background: rgb(25, 56, 82);">
+          <div class="progress-value" style="width:78%;background:linear-gradient(90deg,#e89b3d,#ffd779)" data-html-import-id="html-import-107"></div>
+         </div>
+        </div>
+        <div class="area-row" data-html-import-id="html-import-108">
+         <div class="area-label canva-container" data-html-import-id="html-import-109" data-template-id="div-57" style="color: rgb(215, 228, 238); font-size: 12px;"><span data-html-import-id="html-import-110" data-template-id="span-58" class="canva-text" style="color: rgb(215, 228, 238); font-weight: 400; font-style: normal; font-size: 16px;">Corte a Laser</span><strong data-html-import-id="html-import-111" data-template-id="strong-59" class="canva-text" style="color: rgb(215, 228, 238); font-weight: 700; font-style: normal; font-size: 16px;">88%</strong>
+         </div>
+         <div class="progress-track canva-container" data-html-import-id="html-import-112" data-template-id="div-60" style="background: rgb(25, 56, 82);">
+          <div class="progress-value" style="width:88%;" data-html-import-id="html-import-113"></div>
+         </div>
+        </div>
+        <div class="area-row" data-html-import-id="html-import-114">
+         <div class="area-label canva-container" data-html-import-id="html-import-115" data-template-id="div-61" style="color: rgb(215, 228, 238); font-size: 12px;"><span data-html-import-id="html-import-116" data-template-id="span-62" class="canva-text" style="color: rgb(215, 228, 238); font-weight: 400; font-style: normal; font-size: 16px;">Almoxarifado</span><strong data-html-import-id="html-import-117" data-template-id="strong-63" class="canva-text" style="color: rgb(215, 228, 238); font-weight: 700; font-style: normal; font-size: 16px;">97%</strong>
+         </div>
+         <div class="progress-track canva-container" data-html-import-id="html-import-118" data-template-id="div-64" style="background: rgb(25, 56, 82);">
+          <div class="progress-value" style="width:97%;" data-html-import-id="html-import-119"></div>
+         </div>
+        </div>
+        <div class="area-row" data-html-import-id="html-import-120">
+         <div class="area-label canva-container" data-html-import-id="html-import-121" data-template-id="div-65" style="color: rgb(215, 228, 238); font-size: 12px;"><span data-html-import-id="html-import-122" data-template-id="span-66" class="canva-text" style="color: rgb(215, 228, 238); font-weight: 400; font-style: normal; font-size: 16px;">Prensa Hidráulica</span><strong data-html-import-id="html-import-123" data-template-id="strong-67" class="canva-text" style="color: rgb(215, 228, 238); font-weight: 700; font-style: normal; font-size: 16px;">82%</strong>
+         </div>
+         <div class="progress-track canva-container" data-html-import-id="html-import-124" data-template-id="div-68" style="background: rgb(25, 56, 82);">
+          <div class="progress-value" style="width:82%;background:linear-gradient(90deg,#e89b3d,#ffd779)" data-html-import-id="html-import-125"></div>
+         </div>
+        </div>
+       </div>
+      </article>
+      <article class="card" data-html-import-id="html-import-126">
+       <div class="card-head" data-html-import-id="html-import-127">
+        <div data-html-import-id="html-import-128">
+         <h2 data-template-id="h2-69" class="canva-text canva-text" style="color: rgb(237, 246, 255); font-weight: 700; font-style: normal; font-size: 21px;" data-html-import-id="html-import-129">Evolução da conformidade</h2>
+         <p data-template-id="p-70" class="card-subtitle canva-text canva-text" style="color: rgb(151, 175, 192); font-weight: 400; font-style: normal; font-size: 13px;" data-html-import-id="html-import-130">Leitura consolidada em sete dias.</p>
+        </div><strong class="green canva-text" data-html-import-id="html-import-131" data-template-id="strong-71" style="color: rgb(69, 216, 154); font-weight: 700; font-style: normal; font-size: 16px;">88%</strong>
+       </div>
+       <div class="mini-chart" aria-label="Tendência compacta da conformidade" data-html-import-id="html-import-132">
+        <div class="chart-bar" style="height:48%" data-html-import-id="html-import-133"></div>
+        <div class="chart-bar" style="height:62%" data-html-import-id="html-import-134"></div>
+        <div class="chart-bar" style="height:55%" data-html-import-id="html-import-135"></div>
+        <div class="chart-bar" style="height:78%" data-html-import-id="html-import-136"></div>
+        <div class="chart-bar" style="height:72%" data-html-import-id="html-import-137"></div>
+        <div class="chart-bar" style="height:88%" data-html-import-id="html-import-138"></div>
+        <div class="chart-bar" style="height:82%" data-html-import-id="html-import-139"></div>
+       </div>
+       <div class="chart-caption canva-container" data-html-import-id="html-import-140" data-template-id="div-72" style="color: rgb(157, 180, 197); font-size: 10px;"><span data-html-import-id="html-import-141" data-template-id="span-73" class="canva-text" style="color: rgb(157, 180, 197); font-weight: 400; font-style: normal; font-size: 16px;">Seg</span><span data-html-import-id="html-import-142" data-template-id="span-74" class="canva-text" style="color: rgb(157, 180, 197); font-weight: 400; font-style: normal; font-size: 16px;">Hoje</span>
+       </div>
+      </article>
+     </section>
+     <section class="card" style="margin-top:12px" data-html-import-id="html-import-143">
+      <div class="card-head" data-html-import-id="html-import-144">
+       <div data-html-import-id="html-import-145">
+        <h2 data-template-id="h2-75" class="canva-text canva-text" style="color: rgb(237, 246, 255); font-weight: 700; font-style: normal; font-size: 21px;" data-html-import-id="html-import-146">Alertas prioritários</h2>
+        <p data-template-id="p-76" class="card-subtitle canva-text canva-text" style="color: rgb(151, 175, 192); font-weight: 400; font-style: normal; font-size: 13px;" data-html-import-id="html-import-147">Ocorrências simuladas que aguardam avaliação contextual.</p>
+       </div><button class="small-button canva-button" type="button" data-jump="alertas" data-html-import-id="html-import-148" data-template-id="button-77" style="background: rgb(20, 49, 74); color: rgb(220, 236, 247); font-weight: 800; font-style: normal; font-size: 10px;">Ver alertas</button>
+      </div>
+      <div id="priority-feed" class="summary-list" data-html-import-id="html-import-149">
+       <div class="mini-alert critical canva-container" data-html-import-id="html-import-150" data-template-id="div-78" style="background: rgb(10, 32, 53); font-size: 11px;"><strong data-html-import-id="html-import-151" data-template-id="strong-79" class="canva-text" style="color: rgb(237, 246, 255); font-weight: 700; font-style: normal; font-size: 16px;">Crítica · Ausência de capacete</strong><span data-html-import-id="html-import-152" data-template-id="span-80" class="canva-text" style="color: rgb(156, 180, 197); font-weight: 400; font-style: normal; font-size: 16px;">Manutenção · CAM-10 · Pendente</span>
+       </div>
+       <div class="mini-alert  canva-container" data-html-import-id="html-import-153" data-template-id="div-81" style="background: rgb(10, 32, 53); font-size: 11px;"><strong data-html-import-id="html-import-154" data-template-id="strong-82" class="canva-text" style="color: rgb(237, 246, 255); font-weight: 700; font-style: normal; font-size: 16px;">Alta · Colete de alta visibilidade ausente</strong><span data-html-import-id="html-import-155" data-template-id="span-83" class="canva-text" style="color: rgb(156, 180, 197); font-weight: 400; font-style: normal; font-size: 16px;">Pátio de Cargas · CAM-07 · Pendente</span>
+       </div>
+      </div>
+     </section>
+    </section>
+    <section id="alertas" class="view" data-html-import-id="html-import-156">
+     <div class="page-title" data-html-import-id="html-import-157">
+      <p class="eyebrow canva-text" data-html-import-id="html-import-158" data-template-id="p-84" style="color: rgb(167, 189, 205); font-weight: 800; font-style: normal; font-size: 12px;">Triagem operacional</p>
+      <h2 data-template-id="h2-85" class="canva-text canva-text" style="color: rgb(237, 246, 255); font-weight: 700; font-style: normal; font-size: 21px;" data-html-import-id="html-import-159">Central de alertas</h2>
+      <p data-template-id="p-86" class="canva-text canva-text" style="color: rgb(156, 180, 199); font-weight: 400; font-style: normal; font-size: 14px; line-height: 1.5;" data-html-import-id="html-import-160">Filtre e revise sinais simulados por criticidade, área, EPI e status.</p>
+     </div>
+     <section class="card filter-card" aria-label="Filtros de alertas" data-html-import-id="html-import-161">
+      <div class="filter-grid" data-html-import-id="html-import-162">
+       <label for="filter-area" data-html-import-id="html-import-163" data-template-id="label-87" class="canva-text" style="color: rgb(207, 224, 236); font-weight: 800; font-size: 11px;">
+        <canva-inline-text data-template-id="canva-inline-text-88" class="canva-text" style="color: rgb(207, 224, 236); font-weight: 800; font-style: normal; font-size: 11px;">Área</canva-inline-text><select id="filter-area" data-html-import-id="html-import-164" data-template-id="select-89" class="canva-input" style="background: rgb(9, 27, 46); color: rgb(207, 224, 236); font-weight: 800; font-size: 11px;"><option value="" data-html-import-id="html-import-165" data-template-id="option-90" style="color: rgb(207, 224, 236); font-weight: 400; font-style: normal; font-size: 16px;">Todas</option><option data-html-import-id="html-import-166" data-template-id="option-91" style="color: rgb(207, 224, 236); font-weight: 400; font-style: normal; font-size: 16px;">Manutenção</option><option data-html-import-id="html-import-167" data-template-id="option-92" style="color: rgb(207, 224, 236); font-weight: 400; font-style: normal; font-size: 16px;">Pátio de Cargas</option><option data-html-import-id="html-import-168" data-template-id="option-93" style="color: rgb(207, 224, 236); font-weight: 400; font-style: normal; font-size: 16px;">Corte a Laser</option><option data-html-import-id="html-import-169" data-template-id="option-94" style="color: rgb(207, 224, 236); font-weight: 400; font-style: normal; font-size: 16px;">Prensa Hidráulica</option></select></label> <label for="filter-severity" data-html-import-id="html-import-170" data-template-id="label-95" class="canva-text" style="color: rgb(207, 224, 236); font-weight: 800; font-size: 11px;">
+        <canva-inline-text data-template-id="canva-inline-text-96" class="canva-text" style="color: rgb(207, 224, 236); font-weight: 800; font-style: normal; font-size: 11px;">Severidade</canva-inline-text><select id="filter-severity" data-html-import-id="html-import-171" data-template-id="select-97" class="canva-input" style="background: rgb(9, 27, 46); color: rgb(207, 224, 236); font-weight: 800; font-size: 11px;"><option value="" data-html-import-id="html-import-172" data-template-id="option-98" style="color: rgb(207, 224, 236); font-weight: 400; font-style: normal; font-size: 16px;">Todas</option><option data-html-import-id="html-import-173" data-template-id="option-99" style="color: rgb(207, 224, 236); font-weight: 400; font-style: normal; font-size: 16px;">Crítica</option><option data-html-import-id="html-import-174" data-template-id="option-100" style="color: rgb(207, 224, 236); font-weight: 400; font-style: normal; font-size: 16px;">Alta</option><option data-html-import-id="html-import-175" data-template-id="option-101" style="color: rgb(207, 224, 236); font-weight: 400; font-style: normal; font-size: 16px;">Média</option><option data-html-import-id="html-import-176" data-template-id="option-102" style="color: rgb(207, 224, 236); font-weight: 400; font-style: normal; font-size: 16px;">Baixa</option></select></label> <label for="filter-epi" data-html-import-id="html-import-177" data-template-id="label-103" class="canva-text" style="color: rgb(207, 224, 236); font-weight: 800; font-size: 11px;">
+        <canva-inline-text data-template-id="canva-inline-text-104" class="canva-text" style="color: rgb(207, 224, 236); font-weight: 800; font-style: normal; font-size: 11px;">EPI</canva-inline-text><select id="filter-epi" data-html-import-id="html-import-178" data-template-id="select-105" class="canva-input" style="background: rgb(9, 27, 46); color: rgb(207, 224, 236); font-weight: 800; font-size: 11px;"><option value="" data-html-import-id="html-import-179" data-template-id="option-106" style="color: rgb(207, 224, 236); font-weight: 400; font-style: normal; font-size: 16px;">Todos</option><option data-html-import-id="html-import-180" data-template-id="option-107" style="color: rgb(207, 224, 236); font-weight: 400; font-style: normal; font-size: 16px;">Capacete de segurança</option><option data-html-import-id="html-import-181" data-template-id="option-108" style="color: rgb(207, 224, 236); font-weight: 400; font-style: normal; font-size: 16px;">Colete refletivo</option><option data-html-import-id="html-import-182" data-template-id="option-109" style="color: rgb(207, 224, 236); font-weight: 400; font-style: normal; font-size: 16px;">Óculos de proteção</option><option data-html-import-id="html-import-183" data-template-id="option-110" style="color: rgb(207, 224, 236); font-weight: 400; font-style: normal; font-size: 16px;">Protetor auricular</option></select></label> <label for="filter-status" data-html-import-id="html-import-184" data-template-id="label-111" class="canva-text" style="color: rgb(207, 224, 236); font-weight: 800; font-size: 11px;">
+        <canva-inline-text data-template-id="canva-inline-text-112" class="canva-text" style="color: rgb(207, 224, 236); font-weight: 800; font-style: normal; font-size: 11px;">Status</canva-inline-text><select id="filter-status" data-html-import-id="html-import-185" data-template-id="select-113" class="canva-input" style="background: rgb(9, 27, 46); color: rgb(207, 224, 236); font-weight: 800; font-size: 11px;"><option value="" data-html-import-id="html-import-186" data-template-id="option-114" style="color: rgb(207, 224, 236); font-weight: 400; font-style: normal; font-size: 16px;">Todos</option><option data-html-import-id="html-import-187" data-template-id="option-115" style="color: rgb(207, 224, 236); font-weight: 400; font-style: normal; font-size: 16px;">Pendente</option><option data-html-import-id="html-import-188" data-template-id="option-116" style="color: rgb(207, 224, 236); font-weight: 400; font-style: normal; font-size: 16px;">Em análise</option><option data-html-import-id="html-import-189" data-template-id="option-117" style="color: rgb(207, 224, 236); font-weight: 400; font-style: normal; font-size: 16px;">Confirmado</option><option data-html-import-id="html-import-190" data-template-id="option-118" style="color: rgb(207, 224, 236); font-weight: 400; font-style: normal; font-size: 16px;">Falso positivo</option><option data-html-import-id="html-import-191" data-template-id="option-119" style="color: rgb(207, 224, 236); font-weight: 400; font-style: normal; font-size: 16px;">Escalado</option></select></label>
+      </div><button id="clear-filters" class="secondary-button canva-button" type="button" style="margin-top: 10px; background: rgb(20, 49, 74); color: rgb(220, 236, 247); font-weight: 800; font-style: normal; font-size: 12px;" data-html-import-id="html-import-192" data-template-id="button-120">Limpar filtros</button>
+     </section>
+     <div class="alert-layout" data-html-import-id="html-import-193">
+      <section class="card canva-list" aria-label="Lista filtrada de alertas" data-html-import-id="html-import-194">
+       <div id="alert-list" class="alert-list" data-html-import-id="html-import-195"><button type="button" class="alert-card is-selected canva-button" data-html-import-id="html-import-196" data-template-id="button-121" style="background: rgb(16, 44, 71); color: rgb(237, 246, 255);">
+         <div class="alert-line" data-html-import-id="html-import-197"><span class="status-chip severity-critical canva-text" data-html-import-id="html-import-198" data-template-id="span-122" style="background: rgb(74, 39, 49); color: rgb(255, 171, 178); font-weight: 800; font-style: normal; font-size: 10px;">Crítica</span><span class="alert-time canva-text" data-html-import-id="html-import-199" data-template-id="span-123" style="color: rgb(145, 170, 188); font-weight: 400; font-style: normal; font-size: 10px;">22:58</span>
+         </div><h3 data-html-import-id="html-import-200" data-template-id="h3-124" class="canva-text" style="color: rgb(237, 246, 255); font-weight: 400; font-style: normal; font-size: 13px;">Ausência de capacete</h3><p data-html-import-id="html-import-201" data-template-id="p-125" class="canva-text" style="color: rgb(157, 180, 196); font-size: 11px;"><canva-inline-text data-template-id="canva-inline-text-126" class="canva-text" style="color: rgb(157, 180, 196); font-weight: 400; font-style: normal; font-size: 11px;">Manutenção · CAM-10</canva-inline-text><br data-html-import-id="html-import-202"><span class="status-pendente canva-text" data-html-import-id="html-import-203" data-template-id="span-127" style="color: rgb(255, 224, 148); font-weight: 400; font-style: normal; font-size: 16px;">Pendente</span></p></button><button type="button" class="alert-card canva-button" data-html-import-id="html-import-204" data-template-id="button-128" style="background: rgb(10, 32, 53); color: rgb(237, 246, 255);">
+         <div class="alert-line" data-html-import-id="html-import-205"><span class="status-chip severity-high canva-text" data-html-import-id="html-import-206" data-template-id="span-129" style="background: rgb(74, 53, 31); color: rgb(255, 208, 138); font-weight: 800; font-style: normal; font-size: 10px;">Alta</span><span class="alert-time canva-text" data-html-import-id="html-import-207" data-template-id="span-130" style="color: rgb(145, 170, 188); font-weight: 400; font-style: normal; font-size: 10px;">22:51</span>
+         </div><h3 data-html-import-id="html-import-208" data-template-id="h3-131" class="canva-text" style="color: rgb(237, 246, 255); font-weight: 400; font-style: normal; font-size: 13px;">Colete de alta visibilidade ausente</h3><p data-html-import-id="html-import-209" data-template-id="p-132" class="canva-text" style="color: rgb(157, 180, 196); font-size: 11px;"><canva-inline-text data-template-id="canva-inline-text-133" class="canva-text" style="color: rgb(157, 180, 196); font-weight: 400; font-style: normal; font-size: 11px;">Pátio de Cargas · CAM-07</canva-inline-text><br data-html-import-id="html-import-210"><span class="status-pendente canva-text" data-html-import-id="html-import-211" data-template-id="span-134" style="color: rgb(255, 224, 148); font-weight: 400; font-style: normal; font-size: 16px;">Pendente</span></p></button><button type="button" class="alert-card canva-button" data-html-import-id="html-import-212" data-template-id="button-135" style="background: rgb(10, 32, 53); color: rgb(237, 246, 255);">
+         <div class="alert-line" data-html-import-id="html-import-213"><span class="status-chip severity-medium canva-text" data-html-import-id="html-import-214" data-template-id="span-136" style="background: rgb(77, 66, 31); color: rgb(255, 224, 148); font-weight: 800; font-style: normal; font-size: 10px;">Média</span><span class="alert-time canva-text" data-html-import-id="html-import-215" data-template-id="span-137" style="color: rgb(145, 170, 188); font-weight: 400; font-style: normal; font-size: 10px;">22:43</span>
+         </div><h3 data-html-import-id="html-import-216" data-template-id="h3-138" class="canva-text" style="color: rgb(237, 246, 255); font-weight: 400; font-style: normal; font-size: 13px;">Óculos de proteção não detectados</h3><p data-html-import-id="html-import-217" data-template-id="p-139" class="canva-text" style="color: rgb(157, 180, 196); font-size: 11px;"><canva-inline-text data-template-id="canva-inline-text-140" class="canva-text" style="color: rgb(157, 180, 196); font-weight: 400; font-style: normal; font-size: 11px;">Corte a Laser · CAM-02</canva-inline-text><br data-html-import-id="html-import-218"><span class="status-pendente canva-text" data-html-import-id="html-import-219" data-template-id="span-141" style="color: rgb(255, 224, 148); font-weight: 400; font-style: normal; font-size: 16px;">Em análise</span></p></button><button type="button" class="alert-card canva-button" data-html-import-id="html-import-220" data-template-id="button-142" style="background: rgb(10, 32, 53); color: rgb(237, 246, 255);">
+         <div class="alert-line" data-html-import-id="html-import-221"><span class="status-chip severity-low canva-text" data-html-import-id="html-import-222" data-template-id="span-143" style="background: rgb(18, 62, 52); color: rgb(139, 241, 188); font-weight: 800; font-style: normal; font-size: 10px;">Baixa</span><span class="alert-time canva-text" data-html-import-id="html-import-223" data-template-id="span-144" style="color: rgb(145, 170, 188); font-weight: 400; font-style: normal; font-size: 10px;">22:31</span>
+         </div><h3 data-html-import-id="html-import-224" data-template-id="h3-145" class="canva-text" style="color: rgb(237, 246, 255); font-weight: 400; font-style: normal; font-size: 13px;">Protetor auricular irregular</h3><p data-html-import-id="html-import-225" data-template-id="p-146" class="canva-text" style="color: rgb(157, 180, 196); font-size: 11px;"><canva-inline-text data-template-id="canva-inline-text-147" class="canva-text" style="color: rgb(157, 180, 196); font-weight: 400; font-style: normal; font-size: 11px;">Prensa Hidráulica · CAM-08</canva-inline-text><br data-html-import-id="html-import-226"><span class="status-pendente canva-text" data-html-import-id="html-import-227" data-template-id="span-148" style="color: rgb(255, 224, 148); font-weight: 400; font-style: normal; font-size: 16px;">Pendente</span></p></button>
+       </div>
+       <div id="alert-empty" class="empty-state canva-container" hidden="" data-html-import-id="html-import-228" data-template-id="div-149" style="color: rgb(167, 191, 206); font-weight: 400; font-style: normal; font-size: 12px;">
+        Nenhum alerta encontrado. Ajuste ou limpe os filtros.
+       </div>
+      </section>
+      <aside class="card canva-panel" aria-live="polite" data-html-import-id="html-import-229">
+       <p class="eyebrow canva-text" data-html-import-id="html-import-230" data-template-id="p-150" style="color: rgb(135, 169, 196); font-weight: 800; font-style: normal; font-size: 10px;">Validação humana</p>
+       <h2 data-template-id="h2-151" class="canva-text canva-text" style="color: rgb(237, 246, 255); font-weight: 700; font-style: normal; font-size: 21px;" data-html-import-id="html-import-231">Detalhe da ocorrência</h2>
+       <div class="evidence-box canva-container" data-html-import-id="html-import-232" data-template-id="div-152" style="background: rgb(9, 32, 57); color: rgb(155, 201, 232); font-size: 10px;"><canva-inline-text data-template-id="canva-inline-text-153" class="canva-text" style="color: rgb(155, 201, 232); font-weight: 400; font-style: normal; font-size: 10px;">
+        EVIDÊNCIA VISUAL SIMULADA · </canva-inline-text><strong id="camera-value" data-html-import-id="html-import-233" data-template-id="strong-154" class="canva-text" style="color: rgb(155, 201, 232); font-weight: 700; font-style: normal; font-size: 16px;">CAM-10</strong>
+       </div><span id="severity-value" class="status-chip severity-critical canva-text" data-html-import-id="html-import-234" data-template-id="span-155" style="background: rgb(74, 39, 49); color: rgb(255, 171, 178); font-weight: 800; font-style: normal; font-size: 10px;">Crítica</span>
+       <h3 id="alert-title-value" style="margin: 12px 0px 4px; color: rgb(237, 246, 255); font-weight: 400; font-style: normal; font-size: 19px;" data-html-import-id="html-import-235" data-template-id="h3-156" class="canva-text">Ausência de capacete</h3>
+       <p id="alert-area-value" class="card-subtitle canva-text" data-html-import-id="html-import-236" data-template-id="p-157" style="color: rgb(167, 189, 205); font-weight: 400; font-style: normal; font-size: 12px;">Manutenção · CAM-10</p>
+       <div class="detail-data canva-container" data-html-import-id="html-import-237" data-template-id="div-158" style="background: rgb(9, 28, 48);">
+        <div data-html-import-id="html-import-238"><span data-html-import-id="html-import-239" data-template-id="span-159" class="canva-text" style="color: rgb(148, 173, 189); font-weight: 400; font-style: normal; font-size: 16px;">EPI esperado</span><strong id="epi-value" data-html-import-id="html-import-240" data-template-id="strong-160" class="canva-text" style="color: rgb(237, 246, 255); font-weight: 700; font-style: normal; font-size: 16px;">Capacete de segurança</strong>
+        </div>
+        <div data-html-import-id="html-import-241"><span data-html-import-id="html-import-242" data-template-id="span-161" class="canva-text" style="color: rgb(148, 173, 189); font-weight: 400; font-style: normal; font-size: 16px;">Confiança</span><strong id="confidence-value" class="green canva-text" data-html-import-id="html-import-243" data-template-id="strong-162" style="color: rgb(69, 216, 154); font-weight: 700; font-style: normal; font-size: 16px;">96%</strong>
+        </div>
+        <div data-html-import-id="html-import-244"><span data-html-import-id="html-import-245" data-template-id="span-163" class="canva-text" style="color: rgb(148, 173, 189); font-weight: 400; font-style: normal; font-size: 16px;">Status</span><strong id="status-value" class="status-pendente canva-text" data-html-import-id="html-import-246" data-template-id="strong-164" style="color: rgb(255, 224, 148); font-weight: 700; font-style: normal; font-size: 16px;">Pendente</strong>
+        </div>
+       </div>
+       <div class="action-stack" data-html-import-id="html-import-247">
+        <button class="action-button confirm canva-button" type="button" data-action="Confirmado" data-html-import-id="html-import-248" data-template-id="button-165" style="background: rgb(168, 56, 70); color: rgb(220, 236, 247); font-weight: 800; font-style: normal; font-size: 12px;">Confirmar violação</button> <button class="action-button canva-button" type="button" data-action="Falso positivo" data-html-import-id="html-import-249" data-template-id="button-166" style="background: rgb(20, 49, 74); color: rgb(220, 236, 247); font-weight: 800; font-style: normal; font-size: 12px;">Marcar falso positivo</button> <button class="action-button escalate canva-button" type="button" data-action="Escalado" data-html-import-id="html-import-250" data-template-id="button-167" style="background: rgb(23, 106, 168); color: rgb(220, 236, 247); font-weight: 800; font-style: normal; font-size: 12px;">Escalar supervisão</button>
+       </div>
+      </aside>
+     </div>
+    </section>
+    <section id="inspecao" class="view" data-html-import-id="html-import-251">
+     <div class="page-title" data-html-import-id="html-import-252">
+      <p class="eyebrow canva-text" data-html-import-id="html-import-253" data-template-id="p-168" style="color: rgb(167, 189, 205); font-weight: 800; font-style: normal; font-size: 12px;">Verificação de campo</p>
+      <h2 data-template-id="h2-169" class="canva-text canva-text" style="color: rgb(237, 246, 255); font-weight: 700; font-style: normal; font-size: 21px;" data-html-import-id="html-import-254">Inspeção móvel</h2>
+      <p data-template-id="p-170" class="canva-text canva-text" style="color: rgb(156, 180, 199); font-weight: 400; font-style: normal; font-size: 14px; line-height: 1.5;" data-html-import-id="html-import-255">Registre verificações de campo com checklist, observações e encaminhamento para análise.</p>
+     </div>
+     <div class="inspection-layout" data-html-import-id="html-import-256">
+      <article class="card" data-html-import-id="html-import-257">
+       <h3 data-html-import-id="html-import-258" data-template-id="h3-171" class="canva-text" style="color: rgb(237, 246, 255); font-weight: 400; font-style: normal; font-size: 19px;">Iniciar checklist</h3>
+       <p class="card-subtitle canva-text" data-html-import-id="html-import-259" data-template-id="p-172" style="color: rgb(167, 189, 205); font-weight: 400; font-style: normal; font-size: 12px;">Selecione uma área e registre evidências para revisão humana.</p><label for="inspection-area" style="margin-top: 12px; color: rgb(207, 224, 236); font-weight: 800; font-style: normal; font-size: 11px;" data-html-import-id="html-import-260" data-template-id="label-173" class="canva-text">Área a inspecionar</label> <select id="inspection-area" data-html-import-id="html-import-261" data-template-id="select-174" class="canva-input" style="background: rgb(9, 27, 46); color: rgb(237, 246, 255);"><option data-html-import-id="html-import-262" data-template-id="option-175" style="color: rgb(237, 246, 255); font-weight: 400; font-style: normal; font-size: 16px;">Linha de Solda</option><option data-html-import-id="html-import-263" data-template-id="option-176" style="color: rgb(237, 246, 255); font-weight: 400; font-style: normal; font-size: 16px;">Pátio de Cargas</option><option data-html-import-id="html-import-264" data-template-id="option-177" style="color: rgb(237, 246, 255); font-weight: 400; font-style: normal; font-size: 16px;">Corte a Laser</option><option data-html-import-id="html-import-265" data-template-id="option-178" style="color: rgb(237, 246, 255); font-weight: 400; font-style: normal; font-size: 16px;">Almoxarifado</option><option data-html-import-id="html-import-266" data-template-id="option-179" style="color: rgb(237, 246, 255); font-weight: 400; font-style: normal; font-size: 16px;">Prensa Hidráulica</option></select> <button id="start-inspection" class="primary-button canva-button" type="button" style="width: 100%; margin-top: 10px; background: rgb(23, 106, 168); color: rgb(255, 255, 255); font-weight: 800; font-style: normal; font-size: 12px;" data-html-import-id="html-import-267" data-template-id="button-180">Iniciar inspeção</button>
+      </article>
+      <article class="card" data-html-import-id="html-import-268">
+       <div class="card-head" data-html-import-id="html-import-269">
+        <div data-html-import-id="html-import-270">
+         <h2 data-template-id="h2-181" class="canva-text canva-text" style="color: rgb(237, 246, 255); font-weight: 700; font-style: normal; font-size: 21px;" data-html-import-id="html-import-271">Checklist de EPI</h2>
+         <p class="card-subtitle canva-text" data-html-import-id="html-import-272" data-template-id="p-182" style="color: rgb(167, 189, 205); font-weight: 400; font-style: normal; font-size: 12px;">Classifique cada item e inclua uma observação.</p>
+        </div><strong id="check-count" class="blue canva-text" data-html-import-id="html-import-273" data-template-id="strong-183" style="color: rgb(69, 164, 255); font-weight: 700; font-style: normal; font-size: 16px;">0/3</strong>
+       </div>
+       <div class="progress-track canva-container" style="margin-top: 12px; background: rgb(25, 56, 82);" data-html-import-id="html-import-274" data-template-id="div-184">
+        <div id="check-progress-value" class="progress-value" style="width:0%" data-html-import-id="html-import-275"></div>
+       </div>
+       <div class="checklist" data-html-import-id="html-import-276">
+        <div class="check-row canva-container" data-check="capacete" data-html-import-id="html-import-277" data-template-id="div-185" style="background: rgb(9, 29, 49);">
+         <strong data-html-import-id="html-import-278" data-template-id="strong-186" class="canva-text" style="color: rgb(237, 246, 255); font-weight: 700; font-style: normal; font-size: 12px;">Capacete de segurança em uso correto</strong>
+         <div class="check-actions" data-html-import-id="html-import-279"><button class="choice canva-button" data-value="Conforme" type="button" data-html-import-id="html-import-280" data-template-id="button-187" style="background: rgb(20, 49, 74); color: rgb(193, 213, 228); font-weight: 800; font-style: normal; font-size: 12px;">Conforme</button><button class="choice canva-button" data-value="Não conforme" type="button" data-html-import-id="html-import-281" data-template-id="button-188" style="background: rgb(20, 49, 74); color: rgb(193, 213, 228); font-weight: 800; font-style: normal; font-size: 12px;">Não conforme</button>
+         </div><label for="evidence-capacete" style="margin-top: 8px; color: rgb(207, 224, 236); font-weight: 800; font-style: normal; font-size: 11px;" data-html-import-id="html-import-282" data-template-id="label-189" class="canva-text">Observação</label><textarea id="evidence-capacete" placeholder="Registro da verificação." data-html-import-id="html-import-283" data-template-id="textarea-190" class="canva-input" style="background: rgb(9, 27, 46); color: rgb(237, 246, 255);"></textarea>
+        </div>
+        <div class="check-row canva-container" data-check="oculos" data-html-import-id="html-import-284" data-template-id="div-191" style="background: rgb(9, 29, 49);">
+         <strong data-html-import-id="html-import-285" data-template-id="strong-192" class="canva-text" style="color: rgb(237, 246, 255); font-weight: 700; font-style: normal; font-size: 12px;">Óculos de proteção em uso correto</strong>
+         <div class="check-actions" data-html-import-id="html-import-286"><button class="choice canva-button" data-value="Conforme" type="button" data-html-import-id="html-import-287" data-template-id="button-193" style="background: rgb(20, 49, 74); color: rgb(193, 213, 228); font-weight: 800; font-style: normal; font-size: 12px;">Conforme</button><button class="choice canva-button" data-value="Não conforme" type="button" data-html-import-id="html-import-288" data-template-id="button-194" style="background: rgb(20, 49, 74); color: rgb(193, 213, 228); font-weight: 800; font-style: normal; font-size: 12px;">Não conforme</button>
+         </div><label for="evidence-oculos" style="margin-top: 8px; color: rgb(207, 224, 236); font-weight: 800; font-style: normal; font-size: 11px;" data-html-import-id="html-import-289" data-template-id="label-195" class="canva-text">Observação</label><textarea id="evidence-oculos" placeholder="Registro da verificação." data-html-import-id="html-import-290" data-template-id="textarea-196" class="canva-input" style="background: rgb(9, 27, 46); color: rgb(237, 246, 255);"></textarea>
+        </div>
+        <div class="check-row canva-container" data-check="calcado" data-html-import-id="html-import-291" data-template-id="div-197" style="background: rgb(9, 29, 49);">
+         <strong data-html-import-id="html-import-292" data-template-id="strong-198" class="canva-text" style="color: rgb(237, 246, 255); font-weight: 700; font-style: normal; font-size: 12px;">Calçado de segurança em uso correto</strong>
+         <div class="check-actions" data-html-import-id="html-import-293"><button class="choice canva-button" data-value="Conforme" type="button" data-html-import-id="html-import-294" data-template-id="button-199" style="background: rgb(20, 49, 74); color: rgb(193, 213, 228); font-weight: 800; font-style: normal; font-size: 12px;">Conforme</button><button class="choice canva-button" data-value="Não conforme" type="button" data-html-import-id="html-import-295" data-template-id="button-200" style="background: rgb(20, 49, 74); color: rgb(193, 213, 228); font-weight: 800; font-style: normal; font-size: 12px;">Não conforme</button>
+         </div><label for="evidence-calcado" style="margin-top: 8px; color: rgb(207, 224, 236); font-weight: 800; font-style: normal; font-size: 11px;" data-html-import-id="html-import-296" data-template-id="label-201" class="canva-text">Observação</label><textarea id="evidence-calcado" placeholder="Registro da verificação." data-html-import-id="html-import-297" data-template-id="textarea-202" class="canva-input" style="background: rgb(9, 27, 46); color: rgb(237, 246, 255);"></textarea>
+        </div>
+       </div><button id="complete-inspection" class="primary-button canva-button" type="button" style="width: 100%; margin-top: 11px; background: rgb(22, 128, 90); color: rgb(255, 255, 255); font-weight: 800; font-style: normal; font-size: 12px;" data-html-import-id="html-import-298" data-template-id="button-203">Enviar para revisão</button>
+      </article>
+     </div>
+    </section>
+    <section id="epis" class="view" data-html-import-id="html-import-299">
+     <div class="page-title" data-html-import-id="html-import-300">
+      <p class="eyebrow canva-text" data-html-import-id="html-import-301" data-template-id="p-204" style="color: rgb(167, 189, 205); font-weight: 800; font-style: normal; font-size: 12px;">Referência preventiva</p>
+      <h2 data-template-id="h2-205" class="canva-text canva-text" style="color: rgb(237, 246, 255); font-weight: 700; font-style: normal; font-size: 21px;" data-html-import-id="html-import-302">Lista de EPIs</h2>
+      <p data-template-id="p-206" class="canva-text canva-text" style="color: rgb(156, 180, 199); font-weight: 400; font-style: normal; font-size: 14px; line-height: 1.5;" data-html-import-id="html-import-303">Consulte equipamentos previstos nesta demonstração e sua finalidade preventiva.</p>
+     </div>
+     <div class="epi-grid" data-html-import-id="html-import-304">
+      <article class="card epi-card" data-html-import-id="html-import-305">
+       <h3 data-template-id="h3-207" class="canva-text canva-text" style="color: rgb(237, 246, 255); font-weight: 700; font-style: normal; font-size: 19px;" data-html-import-id="html-import-306">Capacete</h3>
+       <p data-template-id="p-208" class="canva-text canva-text" style="color: rgb(200, 216, 229); font-weight: 400; font-style: normal; font-size: 13px; line-height: 1.5;" data-html-import-id="html-import-307">Protege a cabeça contra impactos e objetos em movimento ou queda.</p>
+      </article>
+      <article class="card epi-card" data-html-import-id="html-import-308">
+       <h3 data-template-id="h3-209" class="canva-text canva-text" style="color: rgb(237, 246, 255); font-weight: 700; font-style: normal; font-size: 19px;" data-html-import-id="html-import-309">Óculos de proteção</h3>
+       <p data-template-id="p-210" class="canva-text canva-text" style="color: rgb(200, 216, 229); font-weight: 400; font-style: normal; font-size: 13px; line-height: 1.5;" data-html-import-id="html-import-310">Ajudam a proteger os olhos contra partículas e respingos.</p>
+      </article>
+      <article class="card epi-card" data-html-import-id="html-import-311">
+       <h3 data-template-id="h3-211" class="canva-text canva-text" style="color: rgb(237, 246, 255); font-weight: 700; font-style: normal; font-size: 19px;" data-html-import-id="html-import-312">Luvas</h3>
+       <p data-template-id="p-212" class="canva-text canva-text" style="color: rgb(200, 216, 229); font-weight: 400; font-style: normal; font-size: 13px; line-height: 1.5;" data-html-import-id="html-import-313">Ajudam a reduzir riscos no manuseio de materiais e tarefas.</p>
+      </article>
+      <article class="card epi-card" data-html-import-id="html-import-314">
+       <h3 data-template-id="h3-213" class="canva-text canva-text" style="color: rgb(237, 246, 255); font-weight: 700; font-style: normal; font-size: 19px;" data-html-import-id="html-import-315">Colete de alta visibilidade</h3>
+       <p data-template-id="p-214" class="canva-text canva-text" style="color: rgb(200, 216, 229); font-weight: 400; font-style: normal; font-size: 13px; line-height: 1.5;" data-html-import-id="html-import-316">Favorece a visibilidade em áreas de circulação e movimentação.</p>
+      </article>
+      <article class="card epi-card" data-html-import-id="html-import-317">
+       <h3 data-template-id="h3-215" class="canva-text canva-text" style="color: rgb(237, 246, 255); font-weight: 700; font-style: normal; font-size: 19px;" data-html-import-id="html-import-318">Protetor facial</h3>
+       <p data-template-id="p-216" class="canva-text canva-text" style="color: rgb(200, 216, 229); font-weight: 400; font-style: normal; font-size: 13px; line-height: 1.5;" data-html-import-id="html-import-319">Contribui para proteger o rosto contra projeções acidentais.</p>
+      </article>
+      <article class="card epi-card" data-html-import-id="html-import-320">
+       <h3 data-template-id="h3-217" class="canva-text canva-text" style="color: rgb(237, 246, 255); font-weight: 700; font-style: normal; font-size: 19px;" data-html-import-id="html-import-321">Calçado de segurança</h3>
+       <p data-template-id="p-218" class="canva-text canva-text" style="color: rgb(200, 216, 229); font-weight: 400; font-style: normal; font-size: 13px; line-height: 1.5;" data-html-import-id="html-import-322">Ajuda a proteger os pés contra impactos e riscos do piso.</p>
+      </article>
+     </div>
+     <article class="card" style="margin-top:12px" data-html-import-id="html-import-323">
+      <h2 data-template-id="h2-219" class="canva-text canva-text" style="color: rgb(237, 246, 255); font-weight: 700; font-style: normal; font-size: 21px;" data-html-import-id="html-import-324">Referência demonstrativa</h2>
+      <p data-template-id="p-220" class="card-subtitle canva-text canva-text" style="color: rgb(175, 197, 213); font-weight: 400; font-style: normal; font-size: 13px; line-height: 1.6;" data-html-import-id="html-import-325">Esta lista não substitui procedimentos internos, avaliação de riscos ou orientação profissional.</p>
+     </article>
+    </section>
+    <section id="areas" class="view" data-html-import-id="html-import-326">
+     <div class="page-title" data-html-import-id="html-import-327">
+      <p class="eyebrow canva-text" data-html-import-id="html-import-328" data-template-id="p-221" style="color: rgb(167, 189, 205); font-weight: 800; font-style: normal; font-size: 12px;">Gestão local simulada</p>
+      <h2 data-template-id="h2-222" class="canva-text canva-text" style="color: rgb(237, 246, 255); font-weight: 700; font-style: normal; font-size: 21px;" data-html-import-id="html-import-329">Áreas simuladas</h2>
+      <p data-template-id="p-223" class="canva-text canva-text" style="color: rgb(156, 180, 199); font-weight: 400; font-style: normal; font-size: 14px; line-height: 1.5;" data-html-import-id="html-import-330">Mantenha a lista local de áreas enxuta para testes de monitoramento.</p>
+     </div>
+     <article class="card" data-html-import-id="html-import-331">
+      <div class="card-head" data-html-import-id="html-import-332">
+       <div data-html-import-id="html-import-333">
+        <h3 data-html-import-id="html-import-334" data-template-id="h3-224" class="canva-text" style="color: rgb(237, 246, 255); font-weight: 400; font-style: normal; font-size: 19px;">Áreas monitoradas</h3>
+        <p class="card-subtitle canva-text" data-html-import-id="html-import-335" data-template-id="p-225" style="color: rgb(167, 189, 205); font-weight: 400; font-style: normal; font-size: 12px;">Edite ou exclua áreas apenas neste protótipo.</p>
+       </div><strong id="areas-count" class="blue canva-text" data-html-import-id="html-import-336" data-template-id="strong-226" style="color: rgb(69, 164, 255); font-weight: 700; font-style: normal; font-size: 16px;">5 áreas</strong>
+      </div>
+      <div id="managed-areas" class="area-manager" data-html-import-id="html-import-337">
+       <div class="managed-area canva-container" data-html-import-id="html-import-338" data-template-id="div-227" style="background: rgb(9, 29, 49);">
+        <div data-html-import-id="html-import-339"><strong data-html-import-id="html-import-340" data-template-id="strong-228" class="canva-text" style="color: rgb(237, 246, 255); font-weight: 700; font-style: normal; font-size: 12px;">Linha de Solda</strong><span data-html-import-id="html-import-341" data-template-id="span-229" class="canva-text" style="color: rgb(157, 180, 197); font-weight: 400; font-style: normal; font-size: 10px;">Conformidade demonstrativa: 94%</span>
+        </div>
+        <div class="area-actions" data-html-import-id="html-import-342"><button class="small-button canva-button" type="button" data-edit="1" data-html-import-id="html-import-343" data-template-id="button-230" style="background: rgb(20, 49, 74); color: rgb(220, 236, 247); font-weight: 800; font-style: normal; font-size: 10px;">Editar</button><button class="small-button canva-button" type="button" data-delete="1" data-html-import-id="html-import-344" data-template-id="button-231" style="background: rgb(20, 49, 74); color: rgb(220, 236, 247); font-weight: 800; font-style: normal; font-size: 10px;">Excluir</button>
+        </div>
+       </div>
+       <div class="managed-area canva-container" data-html-import-id="html-import-345" data-template-id="div-232" style="background: rgb(9, 29, 49);">
+        <div data-html-import-id="html-import-346"><strong data-html-import-id="html-import-347" data-template-id="strong-233" class="canva-text" style="color: rgb(237, 246, 255); font-weight: 700; font-style: normal; font-size: 12px;">Pátio de Cargas</strong><span data-html-import-id="html-import-348" data-template-id="span-234" class="canva-text" style="color: rgb(157, 180, 197); font-weight: 400; font-style: normal; font-size: 10px;">Conformidade demonstrativa: 78%</span>
+        </div>
+        <div class="area-actions" data-html-import-id="html-import-349"><button class="small-button canva-button" type="button" data-edit="2" data-html-import-id="html-import-350" data-template-id="button-235" style="background: rgb(20, 49, 74); color: rgb(220, 236, 247); font-weight: 800; font-style: normal; font-size: 10px;">Editar</button><button class="small-button canva-button" type="button" data-delete="2" data-html-import-id="html-import-351" data-template-id="button-236" style="background: rgb(20, 49, 74); color: rgb(220, 236, 247); font-weight: 800; font-style: normal; font-size: 10px;">Excluir</button>
+        </div>
+       </div>
+       <div class="managed-area canva-container" data-html-import-id="html-import-352" data-template-id="div-237" style="background: rgb(9, 29, 49);">
+        <div data-html-import-id="html-import-353"><strong data-html-import-id="html-import-354" data-template-id="strong-238" class="canva-text" style="color: rgb(237, 246, 255); font-weight: 700; font-style: normal; font-size: 12px;">Corte a Laser</strong><span data-html-import-id="html-import-355" data-template-id="span-239" class="canva-text" style="color: rgb(157, 180, 197); font-weight: 400; font-style: normal; font-size: 10px;">Conformidade demonstrativa: 88%</span>
+        </div>
+        <div class="area-actions" data-html-import-id="html-import-356"><button class="small-button canva-button" type="button" data-edit="3" data-html-import-id="html-import-357" data-template-id="button-240" style="background: rgb(20, 49, 74); color: rgb(220, 236, 247); font-weight: 800; font-style: normal; font-size: 10px;">Editar</button><button class="small-button canva-button" type="button" data-delete="3" data-html-import-id="html-import-358" data-template-id="button-241" style="background: rgb(20, 49, 74); color: rgb(220, 236, 247); font-weight: 800; font-style: normal; font-size: 10px;">Excluir</button>
+        </div>
+       </div>
+       <div class="managed-area canva-container" data-html-import-id="html-import-359" data-template-id="div-242" style="background: rgb(9, 29, 49);">
+        <div data-html-import-id="html-import-360"><strong data-html-import-id="html-import-361" data-template-id="strong-243" class="canva-text" style="color: rgb(237, 246, 255); font-weight: 700; font-style: normal; font-size: 12px;">Almoxarifado</strong><span data-html-import-id="html-import-362" data-template-id="span-244" class="canva-text" style="color: rgb(157, 180, 197); font-weight: 400; font-style: normal; font-size: 10px;">Conformidade demonstrativa: 97%</span>
+        </div>
+        <div class="area-actions" data-html-import-id="html-import-363"><button class="small-button canva-button" type="button" data-edit="4" data-html-import-id="html-import-364" data-template-id="button-245" style="background: rgb(20, 49, 74); color: rgb(220, 236, 247); font-weight: 800; font-style: normal; font-size: 10px;">Editar</button><button class="small-button canva-button" type="button" data-delete="4" data-html-import-id="html-import-365" data-template-id="button-246" style="background: rgb(20, 49, 74); color: rgb(220, 236, 247); font-weight: 800; font-style: normal; font-size: 10px;">Excluir</button>
+        </div>
+       </div>
+       <div class="managed-area canva-container" data-html-import-id="html-import-366" data-template-id="div-247" style="background: rgb(9, 29, 49);">
+        <div data-html-import-id="html-import-367"><strong data-html-import-id="html-import-368" data-template-id="strong-248" class="canva-text" style="color: rgb(237, 246, 255); font-weight: 700; font-style: normal; font-size: 12px;">Prensa Hidráulica</strong><span data-html-import-id="html-import-369" data-template-id="span-249" class="canva-text" style="color: rgb(157, 180, 197); font-weight: 400; font-style: normal; font-size: 10px;">Conformidade demonstrativa: 82%</span>
+        </div>
+        <div class="area-actions" data-html-import-id="html-import-370"><button class="small-button canva-button" type="button" data-edit="5" data-html-import-id="html-import-371" data-template-id="button-250" style="background: rgb(20, 49, 74); color: rgb(220, 236, 247); font-weight: 800; font-style: normal; font-size: 10px;">Editar</button><button class="small-button canva-button" type="button" data-delete="5" data-html-import-id="html-import-372" data-template-id="button-251" style="background: rgb(20, 49, 74); color: rgb(220, 236, 247); font-weight: 800; font-style: normal; font-size: 10px;">Excluir</button>
+        </div>
+       </div>
+      </div>
+      <form id="area-form" class="inline-form" data-html-import-id="html-import-373">
+       <label for="area-name" data-html-import-id="html-import-374" data-template-id="label-252" class="canva-text" style="color: rgb(207, 224, 236); font-weight: 800; font-size: 11px;">
+        <canva-inline-text data-template-id="canva-inline-text-253" class="canva-text" style="color: rgb(207, 224, 236); font-weight: 800; font-style: normal; font-size: 11px;">Nova área</canva-inline-text><input id="area-name" type="text" placeholder="Ex.: Oficina mecânica" data-html-import-id="html-import-375" data-template-id="input-254" class="canva-input" style="background: rgb(9, 27, 46); color: rgb(232, 244, 252); font-weight: 800; font-size: 12px;"></label> <label for="area-score" data-html-import-id="html-import-376" data-template-id="label-255" class="canva-text" style="color: rgb(207, 224, 236); font-weight: 800; font-size: 11px;">
+        <canva-inline-text data-template-id="canva-inline-text-256" class="canva-text" style="color: rgb(207, 224, 236); font-weight: 800; font-style: normal; font-size: 11px;">Conformidade</canva-inline-text><select id="area-score" data-html-import-id="html-import-377" data-template-id="select-257" class="canva-input" style="background: rgb(9, 27, 46); color: rgb(207, 224, 236); font-weight: 800; font-size: 11px;"><option value="90" data-html-import-id="html-import-378" data-template-id="option-258" style="color: rgb(207, 224, 236); font-weight: 400; font-style: normal; font-size: 16px;">90%</option><option value="80" data-html-import-id="html-import-379" data-template-id="option-259" style="color: rgb(207, 224, 236); font-weight: 400; font-style: normal; font-size: 16px;">80%</option><option value="70" data-html-import-id="html-import-380" data-template-id="option-260" style="color: rgb(207, 224, 236); font-weight: 400; font-style: normal; font-size: 16px;">70%</option></select></label> <button id="area-submit" class="primary-button canva-button" type="submit" data-html-import-id="html-import-381" data-template-id="button-261" style="background: rgb(23, 106, 168); color: rgb(255, 255, 255); font-weight: 800; font-style: normal; font-size: 12px;">Adicionar</button> <button id="area-cancel" class="secondary-button canva-button" type="button" style="display: none; background: rgb(20, 49, 74); color: rgb(220, 236, 247); font-weight: 800; font-style: normal; font-size: 12px;" data-html-import-id="html-import-382" data-template-id="button-262">Cancelar edição</button>
+      </form>
+     </article>
+    </section>
+    <section id="configuracoes" class="view" data-html-import-id="html-import-383">
+     <div class="page-title" data-html-import-id="html-import-384">
+      <p class="eyebrow canva-text" data-html-import-id="html-import-385" data-template-id="p-263" style="color: rgb(167, 189, 205); font-weight: 800; font-style: normal; font-size: 12px;">Parâmetros locais</p>
+      <h2 data-template-id="h2-264" class="canva-text canva-text" style="color: rgb(237, 246, 255); font-weight: 700; font-style: normal; font-size: 21px;" data-html-import-id="html-import-386">Configurações operacionais</h2>
+      <p data-template-id="p-265" class="canva-text canva-text" style="color: rgb(156, 180, 199); font-weight: 400; font-style: normal; font-size: 14px; line-height: 1.5;" data-html-import-id="html-import-387">Defina parâmetros locais para alertas, escalonamento e retenção demonstrativa.</p>
+     </div>
+     <form id="settings-form" class="card settings-card" data-html-import-id="html-import-388">
+      <div class="settings-grid" data-html-import-id="html-import-389">
+       <label for="set-area" data-html-import-id="html-import-390" data-template-id="label-266" class="canva-text" style="color: rgb(207, 224, 236); font-weight: 800; font-size: 11px;">
+        <canva-inline-text data-template-id="canva-inline-text-267" class="canva-text" style="color: rgb(207, 224, 236); font-weight: 800; font-style: normal; font-size: 11px;">Área prioritária</canva-inline-text><select id="set-area" data-html-import-id="html-import-391" data-template-id="select-268" class="canva-input" style="background: rgb(9, 27, 46); color: rgb(207, 224, 236); font-weight: 800; font-size: 11px;"><option data-html-import-id="html-import-392" data-template-id="option-269" style="color: rgb(207, 224, 236); font-weight: 400; font-style: normal; font-size: 16px;">Manutenção</option><option data-html-import-id="html-import-393" data-template-id="option-270" style="color: rgb(207, 224, 236); font-weight: 400; font-style: normal; font-size: 16px;">Pátio de Cargas</option><option data-html-import-id="html-import-394" data-template-id="option-271" style="color: rgb(207, 224, 236); font-weight: 400; font-style: normal; font-size: 16px;">Linha de Solda</option></select></label> <label for="set-retention" data-html-import-id="html-import-395" data-template-id="label-272" class="canva-text" style="color: rgb(207, 224, 236); font-weight: 800; font-size: 11px;">
+        <canva-inline-text data-template-id="canva-inline-text-273" class="canva-text" style="color: rgb(207, 224, 236); font-weight: 800; font-style: normal; font-size: 11px;">Retenção de evidências</canva-inline-text><select id="set-retention" data-html-import-id="html-import-396" data-template-id="select-274" class="canva-input" style="background: rgb(9, 27, 46); color: rgb(207, 224, 236); font-weight: 800; font-size: 11px;"><option data-html-import-id="html-import-397" data-template-id="option-275" style="color: rgb(207, 224, 236); font-weight: 400; font-style: normal; font-size: 16px;">30 dias</option><option data-html-import-id="html-import-398" data-template-id="option-276" style="color: rgb(207, 224, 236); font-weight: 400; font-style: normal; font-size: 16px;">60 dias</option><option data-html-import-id="html-import-399" data-template-id="option-277" style="color: rgb(207, 224, 236); font-weight: 400; font-style: normal; font-size: 16px;">90 dias</option></select></label>
+      </div><label for="confidence-range" style="margin-top: 13px; color: rgb(207, 224, 236); font-weight: 800; font-style: normal; font-size: 11px;" data-html-import-id="html-import-400" data-template-id="label-278" class="canva-text">Limiar de confiança</label>
+      <div class="range-line" data-html-import-id="html-import-401"><input id="confidence-range" type="range" min="60" max="99" value="85" data-html-import-id="html-import-402" data-template-id="input-279" class="canva-input" style="background: rgb(255, 255, 255); color: rgb(237, 246, 255);"><output id="confidence-output" data-html-import-id="html-import-403" data-template-id="output-280" style="color: rgb(133, 199, 255); font-weight: 800; font-style: normal; font-size: 12px;">85%</output>
+      </div><label class="toggle-row canva-text" for="auto-escalation" data-html-import-id="html-import-404" data-template-id="label-281" style="background: rgb(9, 29, 49); color: rgb(207, 224, 236); font-weight: 800; font-size: 11px;"><span data-html-import-id="html-import-405" data-template-id="span-282" class="canva-text" style="color: rgb(157, 180, 197);"><strong style="display: block; color: rgb(238, 247, 255); margin-bottom: 3px; font-weight: 900; font-style: normal; font-size: 16px;" data-html-import-id="html-import-406" data-template-id="strong-283" class="canva-text">Escalonamento automático</strong>
+        <canva-inline-text data-template-id="canva-inline-text-284" class="canva-text" style="color: rgb(157, 180, 197); font-weight: 400; font-style: normal; font-size: 16px;">Notificar após revisão de alerta crítico.</canva-inline-text></span><input id="auto-escalation" type="checkbox" checked="" data-html-import-id="html-import-407" data-template-id="input-285" class="canva-input" style="color: rgb(207, 224, 236); font-weight: 800; font-size: 11px;"></label> <button class="primary-button canva-button" type="submit" data-html-import-id="html-import-408" data-template-id="button-286" style="background: rgb(23, 106, 168); color: rgb(255, 255, 255); font-weight: 800; font-style: normal; font-size: 12px;">Salvar configurações</button>
+      <p id="settings-summary" class="card-subtitle canva-text" data-html-import-id="html-import-409" data-template-id="p-287" style="color: rgb(167, 189, 205); font-weight: 400; font-style: normal; font-size: 12px;">Configurações locais ainda não foram alteradas.</p>
+     </form>
+     <article class="card settings-card" style="margin-top:12px" data-html-import-id="html-import-410">
+      <h2 data-template-id="h2-288" class="canva-text canva-text" style="color: rgb(237, 246, 255); font-weight: 700; font-style: normal; font-size: 21px;" data-html-import-id="html-import-411">Acesso de administrador</h2>
+      <p data-template-id="p-289" class="card-subtitle canva-text canva-text" style="color: rgb(156, 180, 199); font-weight: 400; font-style: normal; font-size: 14px; line-height: 1.5;" data-html-import-id="html-import-412">Login exclusivamente demonstrativo para testar o estado administrativo local.</p>
+      <form id="admin-form" style="margin-top:12px" data-html-import-id="html-import-413">
+       <label for="admin-code" data-html-import-id="html-import-414" data-template-id="label-290" class="canva-text" style="color: rgb(207, 224, 236); font-weight: 800; font-size: 11px;">
+        <canva-inline-text data-template-id="canva-inline-text-291" class="canva-text" style="color: rgb(207, 224, 236); font-weight: 800; font-style: normal; font-size: 11px;">Código demonstrativo</canva-inline-text><input id="admin-code" type="password" placeholder="Use ADMIN" data-html-import-id="html-import-415" data-template-id="input-292" class="canva-input" style="background: rgb(9, 27, 46); color: rgb(232, 244, 252); font-weight: 800; font-size: 12px;"></label> <button id="admin-submit" class="secondary-button canva-button" type="submit" style="margin-top: 9px; background: rgb(20, 49, 74); color: rgb(220, 236, 247); font-weight: 800; font-style: normal; font-size: 12px;" data-html-import-id="html-import-416" data-template-id="button-293">Entrar como administrador</button>
+      </form>
+      <div id="admin-state" class="admin-state canva-container" data-html-import-id="html-import-417" data-template-id="div-294" style="background: rgb(10, 32, 53); color: rgb(170, 195, 213); font-weight: 400; font-style: normal; font-size: 11px;">
+       Acesso demonstrativo não ativado.
+      </div>
+     </article>
+    </section>
+    <section id="cameras" class="view" aria-labelledby="cameras-title">
+     <div class="page-title">
+      <p class="eyebrow canva-text" data-template-id="cameras-eyebrow" style="color: rgb(167, 189, 205); font-weight: 800; font-style: normal; font-size: 12px;">Monitoramento físico</p>
+      <h2 id="cameras-title" data-template-id="cameras-title" class="canva-text" style="color: rgb(237, 246, 255); font-weight: 700; font-style: normal; font-size: 21px;">Câmeras instaladas</h2>
+      <p data-template-id="cameras-subtitle" class="canva-text" style="color: rgb(156, 180, 199); font-weight: 400; font-style: normal; font-size: 14px;">Relação demonstrativa das câmeras por setor e disponibilidade.</p>
+     </div>
+     <section class="kpi-grid" aria-label="Resumo de câmeras">
+      <article class="card kpi-card">
+       <p data-template-id="cameras-total-label" class="canva-text" style="color: rgb(168, 189, 204); font-weight: 400; font-style: normal; font-size: 11px;">Total instalado</p><strong id="cameras-total" class="blue canva-text"></strong>
+      </article>
+      <article class="card kpi-card">
+       <p data-template-id="cameras-online-label" class="canva-text" style="color: rgb(168, 189, 204); font-weight: 400; font-style: normal; font-size: 11px;">Online</p><strong id="cameras-online" class="green canva-text"></strong>
+      </article>
+      <article class="card kpi-card">
+       <p data-template-id="cameras-maintenance-label" class="canva-text" style="color: rgb(168, 189, 204); font-weight: 400; font-style: normal; font-size: 11px;">Em manutenção</p><strong id="cameras-maintenance" class="orange canva-text"></strong>
+      </article>
+     </section>
+     <article class="card" style="margin-top:12px">
+      <div id="camera-list" class="epi-grid" aria-live="polite"></div>
+     </article>
+     <article class="card" style="margin-top:12px">
+      <h3 data-template-id="add-camera-title" class="canva-text" style="color: rgb(237, 246, 255); font-weight: 700; font-style: normal; font-size: 19px;">Adicionar nova câmera</h3>
+      <form id="camera-form" class="inline-form">
+       <label for="camera-id" data-template-id="camera-id-label" class="canva-text" style="color: rgb(207, 224, 236); font-weight: 800; font-style: normal; font-size: 11px;">Identificador</label><label for="camera-sector" data-template-id="camera-sector-label" class="canva-text" style="color: rgb(207, 224, 236); font-weight: 800; font-style: normal; font-size: 11px;">Setor</label><label for="camera-status" data-template-id="camera-status-label" class="canva-text" style="color: rgb(207, 224, 236); font-weight: 800; font-style: normal; font-size: 11px;">Status</label><button id="camera-submit" class="primary-button canva-button" type="submit" data-template-id="camera-submit" style="background: rgb(23, 106, 168); color: rgb(255, 255, 255); font-weight: 800; font-style: normal; font-size: 12px;">Adicionar câmera</button><button id="camera-cancel" class="secondary-button canva-button" type="button" data-template-id="camera-cancel" style="display: none; background: rgb(20, 49, 74); color: rgb(220, 236, 247); font-weight: 800; font-style: normal; font-size: 12px;">Cancelar</button>
+      </form>
+      <p id="camera-message" class="card-subtitle" role="status" aria-live="polite"></p>
+     </article>
+    </section>
+    <footer data-html-import-id="html-import-418">
+     <p data-template-id="p-295" class="canva-text canva-text" style="color: rgb(184, 207, 223); font-weight: 400; font-style: normal; font-size: 12px; line-height: 1.5;" data-html-import-id="html-import-419">A IA apenas sinaliza possíveis não conformidades. Toda decisão exige revisão humana. Este ambiente utiliza dados simulados, sem identificação de pessoas reais, e não realiza autenticação ou integrações de produção.</p>
+    </footer>
+   </main>
+  </div>
+  <div id="toast" class="toast canva-container" role="status" aria-live="polite" data-html-import-id="html-import-420" data-template-id="div-296" style="background: rgb(12, 48, 64); color: rgb(239, 255, 255); font-weight: 700; font-size: 12px;"></div>
+  <script data-html-import-id="html-import-421">
+    (function () {
+      const initialAlerts = [
+        {id:1,title:"Ausência de capacete",area:"Manutenção",camera:"CAM-10",epi:"Capacete de segurança",confidence:"96%",severity:"Crítica",color:"#ff6b6b",status:"Pendente",time:"22:58"},
+        {id:2,title:"Colete de alta visibilidade ausente",area:"Pátio de Cargas",camera:"CAM-07",epi:"Colete refletivo",confidence:"91%",severity:"Alta",color:"#ff944d",status:"Pendente",time:"22:51"},
+        {id:3,title:"Óculos de proteção não detectados",area:"Corte a Laser",camera:"CAM-02",epi:"Óculos de proteção",confidence:"83%",severity:"Média",color:"#f5b544",status:"Em análise",time:"22:43"},
+        {id:4,title:"Protetor auricular irregular",area:"Prensa Hidráulica",camera:"CAM-08",epi:"Protetor auricular",confidence:"78%",severity:"Baixa",color:"#45d89a",status:"Pendente",time:"22:31"}
+      ];
+      const initialAreas = [
+        {id:1,name:"Linha de Solda",score:94},
+        {id:2,name:"Pátio de Cargas",score:78},
+        {id:3,name:"Corte a Laser",score:88},
+        {id:4,name:"Almoxarifado",score:97},
+        {id:5,name:"Prensa Hidráulica",score:82}
+      ];
+      let cameras = Array.from({length:18}, (_, i) => ({id:"CAM-" + String(i + 1).padStart(2,"0"), sector:["Linha de Solda","Pátio de Cargas","Corte a Laser","Almoxarifado","Prensa Hidráulica","Expedição"][i % 6], status:i === 9 ? "Em manutenção" : "Online"}));
 
+      let alerts = [];
+      let areas = [];
+      let selectedAlert = 1;
+      let checks = {};
+      let editingAreaId = null;
+      let deleteReadyId = null;
+      let toastTimer;
+
+      function clone(data) { return JSON.parse(JSON.stringify(data)); }
+      function toast(message, error) {
+        const el = document.getElementById("toast");
+        el.textContent = message;
+        el.classList.toggle("error", !!error);
+        el.classList.add("is-visible");
+        clearTimeout(toastTimer);
+        toastTimer = setTimeout(() => el.classList.remove("is-visible"), 3200);
+      }
+      function switchView(id) {
+        document.querySelectorAll(".view").forEach(view => view.classList.toggle("is-active", view.id === id));
+        document.querySelectorAll(".nav-item").forEach(button => {
+          const active = button.dataset.view === id;
+          button.classList.toggle("is-active", active);
+          active ? button.setAttribute("aria-current","page") : button.removeAttribute("aria-current");
+        });
+        window.scrollTo(0,0);
+      }
+      function severityClass(severity) {
+        return {"Crítica":"severity-critical","Alta":"severity-high","Média":"severity-medium","Baixa":"severity-low"}[severity];
+      }
+      function statusClass(status) {
+        return {"Pendente":"status-pendente","Em análise":"status-pendente","Confirmado":"status-confirmado","Falso positivo":"status-falso","Escalado":"status-escalado"}[status] || "";
+      }
+      function currentAlert() {
+        return alerts.find(alert => alert.id === selectedAlert) || alerts[0];
+      }
+      function filters() {
+        return {
+          area: document.getElementById("filter-area").value,
+          severity: document.getElementById("filter-severity").value,
+          epi: document.getElementById("filter-epi").value,
+          status: document.getElementById("filter-status").value
+        };
+      }
+      function renderDashboardAreas() {
+        const root = document.getElementById("dashboard-areas");
+        root.innerHTML = "";
+        areas.slice(0,5).forEach(area => {
+          const row = document.createElement("div");
+          row.className = "area-row";
+          const color = area.score < 84 ? "linear-gradient(90deg,#e89b3d,#ffd779)" : "";
+          row.innerHTML = '<div class="area-label"><span>' + area.name + '</span><strong>' + area.score + '%</strong></div><div class="progress-track"><div class="progress-value" style="width:' + area.score + '%;' + (color ? 'background:' + color : '') + '"></div></div>';
+          root.appendChild(row);
+        });
+        document.getElementById("kpi-areas").textContent = areas.length;
+      }
+      function renderKpis() {
+        const pending = alerts.filter(alert => alert.status === "Pendente" || alert.status === "Em análise").length;
+        const score = Math.min(96, 84 + (4 - pending));
+        document.getElementById("kpi-pending").textContent = pending;
+        document.getElementById("kpi-pending-caption").textContent = pending ? "Revisão humana necessária" : "Todas revisadas";
+        document.getElementById("kpi-compliance").textContent = score + "%";
+        document.getElementById("gauge-value").textContent = score + "%";
+
+        const feed = document.getElementById("priority-feed");
+        feed.innerHTML = "";
+        const priority = alerts.filter(alert => alert.status === "Pendente" || alert.status === "Em análise").slice(0,2);
+        if (!priority.length) {
+          feed.innerHTML = '<div class="mini-alert"><strong>Sem alertas aguardando revisão</strong><span>Os sinais demonstrativos foram tratados nesta sessão.</span></div>';
+          return;
+        }
+        priority.forEach(alert => {
+          const item = document.createElement("div");
+          item.className = "mini-alert " + (alert.severity === "Crítica" ? "critical" : "");
+          item.innerHTML = "<strong>" + alert.severity + " · " + alert.title + "</strong><span>" + alert.area + " · " + alert.camera + " · " + alert.status + "</span>";
+          feed.appendChild(item);
+        });
+      }
+      function renderDetail() {
+        const alert = currentAlert();
+        if (!alert) return;
+        document.getElementById("camera-value").textContent = alert.camera;
+        document.getElementById("alert-title-value").textContent = alert.title;
+        document.getElementById("alert-area-value").textContent = alert.area + " · " + alert.camera;
+        document.getElementById("epi-value").textContent = alert.epi;
+        document.getElementById("confidence-value").textContent = alert.confidence;
+        const status = document.getElementById("status-value");
+        status.textContent = alert.status;
+        status.className = statusClass(alert.status);
+        const severity = document.getElementById("severity-value");
+        severity.textContent = alert.severity;
+        severity.className = "status-chip " + severityClass(alert.severity);
+      }
+      function renderAlerts() {
+        const filter = filters();
+        const list = document.getElementById("alert-list");
+        const empty = document.getElementById("alert-empty");
+        list.innerHTML = "";
+        const matches = alerts.filter(alert =>
+          (!filter.area || alert.area === filter.area) &&
+          (!filter.severity || alert.severity === filter.severity) &&
+          (!filter.epi || alert.epi === filter.epi) &&
+          (!filter.status || alert.status === filter.status)
+        );
+        empty.hidden = matches.length > 0;
+        matches.forEach(alert => {
+          const button = document.createElement("button");
+          button.type = "button";
+          button.className = "alert-card" + (alert.id === selectedAlert ? " is-selected" : "");
+          button.innerHTML = '<div class="alert-line"><span class="status-chip ' + severityClass(alert.severity) + '">' + alert.severity + '</span><span class="alert-time">' + alert.time + '</span></div><h3>' + alert.title + '</h3><p>' + alert.area + ' · ' + alert.camera + '<br><span class="' + statusClass(alert.status) + '">' + alert.status + '</span></p>';
+          button.addEventListener("click", () => {
+            selectedAlert = alert.id;
+            renderAlerts();
+            renderDetail();
+          });
+          list.appendChild(button);
+        });
+        renderDetail();
+      }
+      function nearestScoreOption(score) {
+        if (score >= 85) return 90;
+        if (score >= 75) return 80;
+        return 70;
+      }
+      function syncInspectionAreas() {
+        const select = document.getElementById("inspection-area");
+        const current = select.value;
+        select.innerHTML = areas.map(area => '<option>' + area.name + '</option>').join("");
+        if (areas.some(area => area.name === current)) {
+          select.value = current;
+        }
+      }
+      function renderManagedAreas() {
+        const root = document.getElementById("managed-areas");
+        root.innerHTML = "";
+        areas.forEach(area => {
+          const item = document.createElement("div");
+          item.className = "managed-area";
+          item.innerHTML = '<div><strong>' + area.name + '</strong><span>Conformidade demonstrativa: ' + area.score + '%</span></div><div class="area-actions"><button class="small-button" type="button" data-edit="' + area.id + '">Editar</button><button class="small-button' + (deleteReadyId === area.id ? ' delete-ready' : '') + '" type="button" data-delete="' + area.id + '">' + (deleteReadyId === area.id ? "Confirmar" : "Excluir") + '</button></div>';
+          root.appendChild(item);
+        });
+        document.getElementById("areas-count").textContent = areas.length + (areas.length === 1 ? " área" : " áreas");
+        document.getElementById("kpi-areas").textContent = areas.length;
+        syncInspectionAreas();
+        root.querySelectorAll("[data-edit]").forEach(button => button.addEventListener("click", () => {
+          const area = areas.find(item => item.id === Number(button.dataset.edit));
+          editingAreaId = area.id;
+          document.getElementById("area-name").value = area.name;
+          document.getElementById("area-score").value = String(nearestScoreOption(area.score));
+          document.getElementById("area-submit").textContent = "Salvar";
+          document.getElementById("area-cancel").style.display = "";
+          document.getElementById("area-name").focus();
+        }));
+        root.querySelectorAll("[data-delete]").forEach(button => button.addEventListener("click", () => {
+          const id = Number(button.dataset.delete);
+          if (deleteReadyId !== id) {
+            deleteReadyId = id;
+            renderManagedAreas();
+            toast("Clique novamente em confirmar para excluir a área.");
+            return;
+          }
+          areas = areas.filter(area => area.id !== id);
+          deleteReadyId = null;
+          if (editingAreaId === id) resetAreaForm();
+          renderManagedAreas();
+          renderDashboardAreas();
+          toast("Área removida do cenário demonstrativo.");
+        }));
+      }
+      function resetAreaForm() {
+        editingAreaId = null;
+        document.getElementById("area-form").reset();
+        document.getElementById("area-submit").textContent = "Adicionar";
+        document.getElementById("area-cancel").style.display = "none";
+      }
+      function updateChecklist() {
+        const count = Object.keys(checks).length;
+        document.getElementById("check-count").textContent = count + "/3";
+        document.getElementById("check-progress-value").style.width = (count / 3 * 100) + "%";
+      }
+      function renderCameras() {
+        const list = document.getElementById("camera-list");
+        list.innerHTML = cameras.map(camera => '<article class="card epi-card"><h3>' + camera.id + '</h3><p>' + camera.sector + '</p><span class="status-chip ' + (camera.status === "Online" ? "severity-low" : "severity-high") + '">' + camera.status + '</span></article>').join("");
+        document.getElementById("cameras-total").textContent = cameras.length;
+        document.getElementById("cameras-online").textContent = cameras.filter(camera => camera.status === "Online").length;
+        document.getElementById("cameras-maintenance").textContent = cameras.filter(camera => camera.status === "Em manutenção").length;
+      }
+      function resetCameraForm() { document.getElementById("camera-form").reset(); document.getElementById("camera-cancel").style.display = "none"; }
+      function resetDemo() {
+        alerts = clone(initialAlerts);
+        areas = clone(initialAreas);
+        selectedAlert = 1;
+        checks = {};
+        editingAreaId = null;
+        deleteReadyId = null;
+        document.querySelectorAll(".choice").forEach(button => button.classList.remove("is-ok","is-bad"));
+        document.querySelectorAll("textarea").forEach(field => field.value = "");
+        ["filter-area","filter-severity","filter-epi","filter-status"].forEach(id => document.getElementById(id).value = "");
+        document.getElementById("inspection-area").selectedIndex = 0;
+        document.getElementById("set-area").selectedIndex = 0;
+        document.getElementById("set-retention").selectedIndex = 0;
+        document.getElementById("confidence-range").value = 85;
+        document.getElementById("confidence-output").textContent = "85%";
+        document.getElementById("auto-escalation").checked = true;
+        document.getElementById("settings-summary").textContent = "Configurações locais ainda não foram alteradas.";
+        document.getElementById("admin-form").reset();
+        document.getElementById("admin-state").className = "admin-state";
+        document.getElementById("admin-state").textContent = "Acesso demonstrativo não ativado.";
+        document.getElementById("notification-count").textContent = "2";
+        resetAreaForm();
+        updateChecklist();
+        renderAlerts();
+        renderKpis();
+        renderDashboardAreas();
+        renderManagedAreas();
+        toast("Dados de demonstração restaurados.");
+      }
+
+      document.querySelectorAll(".nav-item").forEach(button => button.addEventListener("click", () => switchView(button.dataset.view)));
+      document.querySelectorAll("[data-jump]").forEach(button => button.addEventListener("click", () => switchView(button.dataset.jump)));
+      ["filter-area","filter-severity","filter-epi","filter-status"].forEach(id => document.getElementById(id).addEventListener("change", renderAlerts));
+      document.getElementById("clear-filters").addEventListener("click", () => {
+        ["filter-area","filter-severity","filter-epi","filter-status"].forEach(id => document.getElementById(id).value = "");
+        renderAlerts();
+        toast("Filtros limpos.");
+      });
+      document.querySelectorAll("[data-action]").forEach(button => button.addEventListener("click", () => {
+        const alert = currentAlert();
+        if (!alert) return;
+        alert.status = button.dataset.action;
+        renderAlerts();
+        renderKpis();
+        toast("Alerta atualizado para “" + alert.status + "”.");
+      }));
+      document.getElementById("start-inspection").addEventListener("click", () => toast("Checklist iniciado para " + document.getElementById("inspection-area").value + "."));
+      document.querySelectorAll(".check-row").forEach(row => {
+        row.querySelectorAll(".choice").forEach(button => button.addEventListener("click", () => {
+          checks[row.dataset.check] = button.dataset.value;
+          row.querySelectorAll(".choice").forEach(choice => choice.classList.remove("is-ok","is-bad"));
+          button.classList.add(button.dataset.value === "Conforme" ? "is-ok" : "is-bad");
+          updateChecklist();
+        }));
+      });
+      document.getElementById("complete-inspection").addEventListener("click", () => {
+        if (Object.keys(checks).length < 3) {
+          toast("Revise os três itens antes de enviar.", true);
+          return;
+        }
+        const missing = Array.from(document.querySelectorAll(".check-row textarea")).find(field => !field.value.trim());
+        if (missing) {
+          missing.focus();
+          toast("Registre uma observação em cada item.", true);
+          return;
+        }
+        toast("Inspeção encaminhada para revisão humana.");
+        switchView("panel");
+      });
+      document.getElementById("area-form").addEventListener("submit", event => {
+        event.preventDefault();
+        const name = document.getElementById("area-name").value.trim();
+        const score = Number(document.getElementById("area-score").value);
+        if (!name) {
+          document.getElementById("area-name").focus();
+          toast("Informe o nome da área.", true);
+          return;
+        }
+        if (editingAreaId) {
+          const area = areas.find(item => item.id === editingAreaId);
+          area.name = name;
+          area.score = score;
+          toast("Área demonstrativa atualizada.");
+        } else {
+          areas.push({id: Date.now(), name:name, score:score});
+          toast("Área adicionada ao cenário demonstrativo.");
+        }
+        resetAreaForm();
+        renderManagedAreas();
+        renderDashboardAreas();
+      });
+      document.getElementById("area-cancel").addEventListener("click", () => {
+        resetAreaForm();
+        toast("Edição cancelada.");
+      });
+      const range = document.getElementById("confidence-range");
+      range.addEventListener("input", () => document.getElementById("confidence-output").textContent = range.value + "%");
+      document.getElementById("settings-form").addEventListener("submit", event => {
+        event.preventDefault();
+        const summary = document.getElementById("set-area").value + " · retenção de " + document.getElementById("set-retention").value + " · limiar de " + range.value + "%";
+        document.getElementById("settings-summary").textContent = "Resumo local: " + summary + ".";
+        toast("Configurações locais atualizadas.");
+      });
+      document.getElementById("admin-form").addEventListener("submit", event => {
+        event.preventDefault();
+        const code = document.getElementById("admin-code").value.trim().toUpperCase();
+        const state = document.getElementById("admin-state");
+        if (code !== "ADMIN") {
+          state.className = "admin-state";
+          state.textContent = "Código demonstrativo inválido. Use ADMIN para testar.";
+          toast("Não foi possível ativar o acesso demonstrativo.", true);
+          return;
+        }
+        state.className = "admin-state is-admin";
+        state.textContent = "Administrador demonstrativo ativo. Nenhuma autenticação real foi realizada.";
+        document.getElementById("admin-code").value = "";
+        toast("Acesso demonstrativo de administrador ativado.");
+      });
+      document.getElementById("notifications-button").addEventListener("click", () => {
+        document.getElementById("notification-count").textContent = "0";
+        toast("2 notificações simuladas verificadas: alertas pendentes aguardam revisão.");
+      });
+      document.getElementById("restore-data").addEventListener("click", resetDemo);
+      document.getElementById("camera-form").addEventListener("submit", event => {
+        event.preventDefault();
+        const id = document.getElementById("camera-id").value.trim().toUpperCase();
+        const sector = document.getElementById("camera-sector").value.trim();
+        const status = document.getElementById("camera-status").value;
+        const message = document.getElementById("camera-message");
+        if (!/^CAM-\\d{2,}$/.test(id) || !sector) { message.textContent = "Informe um identificador no formato CAM-19 e um setor."; message.className = "card-subtitle error"; return; }
+        if (cameras.some(camera => camera.id === id)) { message.textContent = "Este identificador já está cadastrado."; message.className = "card-subtitle error"; return; }
+        cameras.push({id, sector, status}); renderCameras(); resetCameraForm(); message.textContent = "Câmera " + id + " adicionada com sucesso."; message.className = "card-subtitle";
+      });
+      document.getElementById("camera-cancel").addEventListener("click", resetCameraForm);
+
+      alerts = clone(initialAlerts);
+      areas = clone(initialAreas);
+      renderAlerts();
+      renderKpis();
+      renderDashboardAreas();
+      renderManagedAreas();
+      renderCameras();
+      updateChecklist();
+      lucide.createIcons();
+    })();
+  </script>
+  <script src="/_sdk/a2fb166d7f9b28d6.editing_sdk.js" integrity="sha512-bes84+GHtQxBmMIhyqior0V2QotFBjKX/ArfVMC5Dr/7APFTzZTFNGovt6xo9jDVm+bP7sz7KffP7o+KYzmb5A=="></script>
+ 
+</body></html>
